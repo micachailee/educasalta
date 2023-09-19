@@ -5,8 +5,63 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
+    <!-- Estilos -->
+    <link rel="stylesheet" href="styles/default.css">
 </head>
 <body>
-    
+    <header>
+        <nav class="nav-bar">
+            <ul><li>Aqui iria la barra de navegacion</li></ul>
+        </nav>
+    </header>
+
+    <main class="admin-settings">
+        <div class="admin-bar">
+            <ul>
+                <li><a class="add-inst"> Agregar Institucion</a> </li>
+                <li><a class="edit-inst">Editar Institucion</a></li>
+                <li><a class="del-inst">Eliminar Institucion</a></li>
+            </ul>
+        </div>
+        <div class="list-inst">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae provident nemo natus doloremque ducimus quis. Blanditiis similique quas vel numquam fugit corrupti quos exercitationem aliquam, laborum soluta facere architecto. Cupiditate.</p>
+        </div>
+
+        <form action="" id="inst-info">
+            <h2>Agregar/Editar Institucion</h2>
+            <fieldset>
+                <label for="inst_name">Ingrese el nombre de la Institucion</label>
+                <input class= "form-control" id="inst_name" name="name" type="text" required>
+            </fieldset>
+            <fieldset>
+                <label for="inst_direction">Ingrese la direccion</label>                
+                <input class= "form-control" id="inst_direction" name="direction" type="text" required>
+            </fieldset>
+            <fieldset>
+                <label for="inst_contact">Ingrese el numero de contacto</label>
+                <input class= "form-control" id="inst_contact" name="tel" type="tel" required>
+            </fieldset>
+            <fieldset>
+                <label for="inst_email">Ingrese el mail de contacto</label>
+                <input class= "form-control" id="inst_email" name="email" type="email" required>
+            </fieldset>
+            <fieldset>
+                <label for="inst_page">Si existe, ingrese pagina web</label>
+                <input class= "form-control" id="inst_page" name="page" type="url">
+            </fieldset>
+            <fieldset>
+                <label for="inst_type">Publica</label>
+                <input type="radio" id="public-inst" name="inst-type" value="public-inst">
+                <label for="inst_type">Privada</label>
+                <input type="radio" id="private-inst" name="inst-type" value="private-inst">
+            </fieldset>
+            <button class="submit">Guardar</button>
+        </form>
+    </main>
+
+    <footer>
+
+    </footer>
 </body>
 </html>

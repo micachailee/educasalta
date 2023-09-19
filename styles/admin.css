@@ -1,0 +1,79 @@
+body{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+.nav-bar{
+    background-color:#091c47;
+    height: 10vh;
+}
+.admin-settings{
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+}
+.admin-bar{
+    background-color:#091c47 ;
+    min-width: 20vw;
+}
+.admin-bar li{
+    padding: 1.5rem;
+
+}
+.admin-bar li:hover,
+.submit:hover{
+    background: radial-gradient(#11388e,#091c47);
+}
+.list-inst{
+    background-color: #f3f8ff;
+    padding: 1.5rem;
+
+}
+#inst-info{
+    background:#dde7ff;
+    position: absolute;
+    z-index: 1;
+    top: 10vh;
+    left: 30vw;
+    width: 30%;
+    padding: 1rem;
+    border-radius: 1rem;
+    box-shadow: #4a433f 0px 7px 29px 0px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+input[type="text"], 
+input[type="tel"], 
+input[type="email"], 
+input[type="url"]{
+    border: none;
+    border-radius: 1rem;
+    outline: none;
+    margin: .5rem;
+    padding: .5rem;
+    width: 80%;
+}
+:is(fieldset){
+    border: none;
+
+}
+
+.submit{
+    background-color: #091c47;
+    color: #dde7ff;
+    padding: .5rem;
+    width: 40%;
+    border-radius: 1rem;
+    border: #11388e;
+    align-self: center;
+}
+
