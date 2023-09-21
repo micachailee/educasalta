@@ -7,10 +7,11 @@ ul{
     margin: 0;
     padding: 0;
 }
-ul a{
+a{
     text-decoration: none;
-    color: white;
+    color: #f3f8ff;
 }
+
 .nav-bar{
     background-color:#091c47;
     height: 10vh;
@@ -37,6 +38,31 @@ ul a{
     padding: 1.5rem;
     display: flex;
     flex-direction: column;
+    width: 100%;
+    height: auto;
+    gap: 1rem;
+
+}
+.inst-details{
+    border-radius: 1rem;
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    box-shadow: #aaaaaa 0px 7px 29px 0px;
+}
+.score{
+    display: block;
+    margin: auto;
+    padding: 1rem;
+    text-align: left;
+    width: 30%;
+}
+.stars::after{
+    content: "⭐⭐⭐";
+}
+.opinion{
+    color: #000;
 }
 #inst-info{
     visibility: hidden;
@@ -51,9 +77,6 @@ ul a{
     box-shadow: #4a433f 0px 7px 29px 0px;
     display: flex;
     flex-direction: column;
-    text-align: center;
-}
-h2{
     text-align: center;
 }
 h3{
