@@ -26,7 +26,7 @@ main{
 }
 
 .img{
-    width: 100vw;
+    width: 95vw;
     height: 40vh;
     overflow: hidden;
     display: block;
@@ -40,16 +40,15 @@ article p{
     text-align: left;
 }
 .dos iframe{
-    width: 100%;
+    width: 99%;
     height: 300px;
-
- }
+}
 
 /*Informacion*/
 
 
 .bord{
-    width: 100vw;
+    width: 100%;
     height: 100px;
     display: flex;
     justify-content:space-around;
@@ -83,6 +82,11 @@ article p{
 .dir{
     width: 210px;
 }
+.divcom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 /*comentarios*/
 .subs{
     margin: 10px;
@@ -137,7 +141,7 @@ label{
 
 #correo,
 #comentarios{
-    width: 350px;
+    width: 250px;
 }
 
 /* Estilos para los campos del formulario */

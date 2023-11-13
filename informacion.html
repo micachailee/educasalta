@@ -9,17 +9,15 @@
 <body>
         <nav>
             <div id="log">EDUCASALTA</div> 
-            <button id="btn">hola</button>
+            <button id="btn"></button>
             <ul id="menu" class="menu"> 
-                <button onclick="cerrarMenu()">Cerrar Menú</button>
+                <button onclick="cerrarMenu()">X</button>
                 <li><a href="">INICIO</a></li>
                 <li><a href="">NIVELES</a></li>
                 <li><a href="">BUSQUEDA</a></li>
                 <li><a href="">ACCEDER</a></li>
                 <li id="reg"><a href="">REGISTRATE</a></li>
             </ul>
-           
-            
         </nav>
         <main>
             <section class="sub">
@@ -169,16 +167,17 @@
 </body>
 <script>
     function abrirMenu() {
-            document.getElementById("menu").style.display = "flex";
-        }
+        document.getElementById("menu").style.display = "flex";
+    }
 
-        // Función para cerrar el menú
-        function cerrarMenu() {
-            document.getElementById("menu").style.display = "none";
-        }
+     // Función para cerrar el menú
+    function cerrarMenu() {
+        document.getElementById("menu").style.display = "none";
+    }
 
-        // Evento de clic en el botón de alternancia
-        document.getElementById("btn").addEventListener("click", abrirMenu);
+    // Evento de clic en el botón de alternancia
+    document.getElementById("btn").addEventListener("click", abrirMenu);
+
     function mostrarPopup() {
       document.getElementById('form').style.display = 'block';
       /*document.getElementById('overlay').style.display = 'block';*/
