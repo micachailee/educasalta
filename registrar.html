@@ -1,0 +1,78 @@
+<!-- register.html -->
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crear Cuenta</title>
+    <style>
+        body {
+            background-color: #000;
+            color: #fff;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+
+        .register-container {
+            background-color: #333;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+            width: 300px;
+            text-align: center;
+        }
+
+        .register-container h2 {
+            margin-bottom: 20px;
+        }
+
+        .register-form {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .form-input {
+            margin-bottom: 15px;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            background-color: #444;
+            color: #fff;
+        }
+
+        .submit-button {
+            background-color: #66fcf1;
+            color: #000;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .submit-button:hover {
+            background-color: #1dc2b7;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="register-container">
+        <h2>Crear Cuenta</h2>
+        <form class="register-form" action="" method="post">
+           
+            <input class="form-input" type="text" name="full_name" placeholder="Nombre Completo" required>
+            <input class="form-input" type="date" name="birthdate" placeholder="Fecha de Nacimiento" required>
+            <input class="form-input" type="email" name="email" placeholder="Correo Electrónico" required>
+            <input class="form-input" type="password" name="password" placeholder="Contraseña" required>
+            <button type="submit" class="submit-button">Crear Cuenta</button>
+        </form>
+    </div>
+
+</body>
+</html>
