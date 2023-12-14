@@ -22,7 +22,7 @@ data.forEach(function(item) {
     contentDetail.classList.add('content-details');
 
     var readmButton = document.createElement('button');
-    readmButton.classList.add('read-more-button');
+    readmButton.classList.add('read-more');
     readmButton.innerText = 'Ver mas';
 
     contentInfo.appendChild(imgInst);
