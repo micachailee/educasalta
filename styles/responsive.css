@@ -91,7 +91,7 @@
   }
 
   .client_section .carousel-control-prev,
-  .client_section .carousel-control-next {left:
+  .client_section .carousel-control-next {
     position: unset;
     transform: none;
   }

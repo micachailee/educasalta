@@ -11,25 +11,6 @@ header {
     text-align: center;
 }
 
-.navbar {
-    background-color: transparent;
-    overflow: hidden;
-}
-
-.navbar a {
-    float: left;
-    display: block;
-    color: #2c7873;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-
-.navbar a:hover {
-    background-color: #2c7873;
-    color: rgb(44, 14, 14);
-}
-
 .main-container {
     display: flex;
 }
@@ -74,7 +55,7 @@ header {
 
 .content-section {
     height: 15%;
-    background-color: #fff;
+    background-color: #F0F0F0;
     border-radius: 15px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     overflow: hidden;
