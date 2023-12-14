@@ -1,10 +1,10 @@
 var cardsArticle = document.getElementById('main-content');
 
-fetch('instituciones.json')
+fetch('../instituciones.json')
 .then(response => response.json())
 .then(data => {
+console.log('Datos del JSON:', data);
 data.forEach(function(item) {
-
     var cardSection = document.createElement('section');
     cardSection.classList.add('content-section');
 
@@ -13,8 +13,8 @@ data.forEach(function(item) {
 
     var imgInst = document.createElement('img');
     imgInst.src = item.imagen;
-    imgInst.alt =  'Imagen de la institucion'
-    
+    imgInst.alt = 'Imagen de la institucion';
+
     var titleInst = document.createElement('h2');
     titleInst.innerText = item.nombre;
 
@@ -25,12 +25,12 @@ data.forEach(function(item) {
     readmButton.classList.add('read-more-button');
     readmButton.innerText = 'Ver mas';
 
-    imgInst.appendChild(contentInfo);
-    titleInst.appendChild(contentInfo);
+    contentInfo.appendChild(imgInst);
+    contentInfo.appendChild(titleInst);
 
-    contentStar.appendChild(contentDetail);
-    editButton.appendChild(contentDetail);
-    readmButton.appendChild(contentDetail);
+    cardSection.appendChild(contentInfo);
+    cardSection.appendChild(contentDetail);
+    cardSection.appendChild(readmButton);
 
     cardsArticle.appendChild(cardSection);
 });
