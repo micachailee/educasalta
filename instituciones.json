@@ -1,0 +1,34 @@
+[{
+    "nombre": "COLEGIO SALESIANO ANGEL ZERDA",
+    "descripcion": "Además de los Salesianos consagrados que animan la vida comunitaria, son más de doscientos cincuenta los educadores que trabajan en la Obra, entre maestros, profesores, personal de apoyo, catequistas y animadores de grupos. Todos ellos brindan su tiempo en la educación de más de dos mil alumnos en el sector escolar, y otros mil niños y jóvenes que participan del amplísimo Movimiento Juvenil Salesiano: Exploradores de Don Bosco, Oratorio, Catequesis, Grupos de oración, Misioneros y de Música…",
+    "imagen": "",
+    "direccion":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3622.1916387944502!2d-65.42251292463133!3d-24.788890577976137!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x941bc3b1ae360a57%3A0x3c684f6c15497297!2sColegio%20Salesiano%20-%20Angel%20Zerda!5e0!3m2!1ses-419!2sar!4v1702580669462!5m2!1ses-419!2sar", 
+    "zona": "centro",
+    "contacto":"Tel: 0387 - 4212793",
+    "otros": "comercial",
+    "sector": "Privado",
+    "modalidad": "varones",
+    "comentarios":[{
+        "usuario": "",
+        "star": "", 
+        "descripcion": "" 
+    }]
+},
+{
+    "nombre": "",
+    "descripcion": "",
+    "imagen": "",
+    "direccion":"", 
+    "zona": "",
+    "contacto":"",
+    "otros": "",
+    "sector": "",
+    "modalidad": "",
+    "comentarios":[{
+        "usuario": "",
+        "star": "", 
+        "descripcion": "" 
+    }
+    ]
+}
+]
