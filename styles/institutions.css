@@ -133,6 +133,7 @@ img {
         width: 100%;
         order: 1;
         display: flex;
+        flex-direction: column;
     }
 
     .main-content {
@@ -141,33 +142,41 @@ img {
     }
 
     .content-section{
+        margin: 1rem;
         width: 90%;
+        height: 50vh;
         display: flex;
         flex-direction: column;
         align-items: center;
+        justify-content: space-evenly;
     }
 
     .content-info{
         display: flex;
         flex-direction: column;
         align-items: center;
+        height: 80%;
     }
 
-    .content-details{
-        display: flex;
+    .content-info h3{
+        text-align: center;
     }
 
     img {
         width: 50%;
-        height: auto;
+        height: 80%;
         margin-right: 1rem;
+        margin-bottom: 1rem;
+    }
+    
+    .filters{
+        display: flex;
+        justify-content: space-evenly;
     }
     .category{
-        position: relative;
-        display: inline-block;
         margin: 1rem;
     }
-    .category h2::after{
+    .category h5::after{
         content: "▾";
         margin-left: 5px;
     }
@@ -184,10 +193,9 @@ img {
     }
     .category:hover .category-list{
         border-bottom: #F0F0F0;
-        display: block;
-        margin: .5rem;
+        display: flex;
+        flex-direction: column;
         border-radius: 5px;
-        /* Cuando sea pantallas chicas que no cambie todo el boton, simplemente que se subraye */
     }
 }
 
