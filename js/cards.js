@@ -6,7 +6,7 @@ fetch('../instituciones.json')
     .then(response => response.json())
     .then(data => {
         allData = data;
-        //FilterBy('nombre', 'salesiano');
+        FilterBy('nombre', 'salesiano'); //PROBANDO FILTROS
     })
     .catch(error => console.error('Error al obtener el JSON:', error));
 
