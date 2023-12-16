@@ -1,15 +1,9 @@
-body {
-    font-family: 'Poppins', sans-serif;
-    color: #0c0c0c;
-    background-color: #F0F0F0;
-    margin: 0;
-    padding: 0;
-}
-
 header {
-    background-color: #242121 ;
+    background-color: #0c0c0c;
 }
-
+button:focus{
+    outline: none;
+}
 .main-container {
     display: flex;
 }
@@ -24,11 +18,43 @@ header {
     box-shadow: #555 1rem;
 }
 
+.search-bar {
+    margin: 2rem 0;
+    display: flex;
+}
+
+.search-input {
+    border-radius: 0.25rem 0 0 0.25rem; 
+    width: 80%;
+    border: 1px solid #2c7873;
+    padding: 0.5rem;
+    border-right: none;
+}
+
+.search-button {
+    width: 20%;
+    background-color: #fff; 
+    color: white;
+    border: 1px solid #2c7873;
+    border-radius: 0 0.25rem 0.25rem 0;
+    cursor: pointer; 
+    border-left: none;
+    padding: 0;
+}
+
+.search-button img {
+    background-color: transparent;
+    width: 50%;
+    height: auto;
+    margin: .25rem;
+}
+
 .category {
     margin-bottom: 20px;
 }
 
 .category-button {
+    font-size: 15px;
     padding: 10px;
     background-color: #2c7873;
     color: #F0F0F0;
@@ -53,14 +79,15 @@ header {
 }
 
 .content-section {
-    height: 25%;
+    height: 30%;
     background-color: #f7f7f7;
     border-radius: 15px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     overflow: hidden;
-    margin-bottom: 20px;
+    margin-bottom: 1rem;
     display: flex;
     align-items: center;
+    padding: 2rem;
     justify-content: space-between;
 }
 
@@ -68,42 +95,32 @@ header {
     transform: scale(1.02);
 }
 
-
-img {
-    width: 15%;
-    height: auto;
-    margin-right: 1rem;
-}
-
 .content-info {
-    padding: 20px;
     display: flex;
-}
-
-.content-details{
-    display: flex;
-    justify-content: center;
+    width: 85%;
+    height: 100%;
     align-items: center;
 }
-.edit-button {
-    border: none;
-    background: none;
-    font-size: 1.5rem;
-    color: #2c7873;
-    cursor: pointer;
+
+img {
+    height: 100%;
+    width: 20%;
+    background-color: #0c0c0c;
+    margin-right: 1.5rem;
+    border-radius: .25rem;
 }
 
 .read-more {
-    height: 35%;
-    background-color: #2c7873;
-    border: none;
+    background-color: transparent;
+    color: #2c7873;
     border-radius: .25rem;
     cursor: pointer;
-    margin: 1rem;
+    font-size: 20px;
+    padding: .5rem;
 }
 
 .read-more:hover {
-    background-color: #F0F0F0;
+    background-color: transparent;
 }
 
 @media (max-width:767px) {
