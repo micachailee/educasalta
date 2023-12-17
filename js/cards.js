@@ -1,19 +1,21 @@
 var cardsArticle = document.getElementById('main-content');
 
 var allData;
+var filter ='nombre';
+var value = '';
 
 fetch('../instituciones.json')
     .then(response => response.json())
     .then(data => {
         allData = data;
-        FilterBy('nombre', 'salesiano'); //PROBANDO FILTROS
+        FilterBy(filter, value);
     })
     .catch(error => console.error('Error al obtener el JSON:', error));
 
 function FilterBy(filter, value) {
 
     if (allData) {
-        cardsArticle.innerHTML = '';
+        cardsArticle.innerHTML = `<h4>Resultados de Busqueda de ${value.toUpperCase()}</h4>`;
         allData.forEach(function (item) {
             if (filterMatches(item, filter, value)) {
                 createNewCard(item);
@@ -76,4 +78,12 @@ function createNewCard(item){
 
     cardsArticle.appendChild(cardSection);
 }
+
+const searchInput = document.getElementById('searchInput');
+
+searchInput.addEventListener('input', function(){
+    value = searchInput.value.trim().toLowerCase();
+    filter = 'nombre';
+    FilterBy(filter, value);
+});
 
