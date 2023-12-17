@@ -4,6 +4,7 @@
     "imagen": "",
     "direccion":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3622.1916387944502!2d-65.42251292463133!3d-24.788890577976137!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x941bc3b1ae360a57%3A0x3c684f6c15497297!2sColegio%20Salesiano%20-%20Angel%20Zerda!5e0!3m2!1ses-419!2sar!4v1702580669462!5m2!1ses-419!2sar", 
     "zona": "centro",
+    "tipo": "secundario",
     "contacto":"Tel: 0387 - 4212793",
     "otros": "comercial",
     "sector": "Privado",
@@ -15,11 +16,131 @@
     }]
 },
 {
+    "nombre": "COLIBRI-ASOC.SALTEÑA SINDROME DE DOWN",
+    "descripcion": "El propósito fundamental de la Fundación Por Igual Más es promover el reconocimiento de las personas con discapacidad a través de tres estrategias: empoderar, accesibilizar, incidir publicamente",
+    "imagen": "",
+    "direccion":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d44725.61256540197!2d-65.43174036626966!3d-24.781867615016978!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x941bc301980d341b%3A0x4e307a66ce0b31bd!2sCOLIBR%C3%8D%20Asociaci%C3%B3n%20salte%C3%B1a%20s%C3%ADndrome%20de%20Down!5e0!3m2!1ses-419!2sar!4v1702582420410!5m2!1ses-419!2sar", 
+    "zona": "norte",
+    "tipo": "especial",
+    "contacto":"+549 351 248-6437, https://porigualmas.org/servicios/#personasdiscapacidad",
+    "otros": "ASESORAMIENTO LEGAL GRATUITO, AGENDA DE INSTITUCIONES DE DISCAPACIDAD,TALLERES ARTÍSTICOS",
+    "sector": "privado",
+    "modalidad": "mixta",
+    "comentarios":[{
+        "usuario": "",
+        "star": "", 
+        "descripcion": "" 
+    }]
+},
+{
+    "nombre": "Colegio Santo Tomas de Villanueva",
+    "descripcion": "El Nivel Primario del Colegio Santo Tomás de Villanueva está destinada a la formación básica de alumnos y alumnas a partir de los 6 años. La formación curricular en castellano se complementa con formación en talleres por la tarde, con idioma inglés.",
+    "imagen": "",
+    "direccion":"//www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d120048.73151936039!2d-65.49004769932026!3d-24.87089408020256!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x941bc32683368fb7%3A0x2624175a88a983dc!2sColegio%20Santo%20Tomas%20de%20Villanueva!5e0!3m2!1ses-419!2sar!4v1702816505625!5m2!1ses-419!2sar", 
+    "zona": "Sur",
+    "tipo": "primario",
+    "contacto":"03874952647",
+    "otros": "Para los niños que se quedan a almorzar se organiza el servicio además en TALLERES ARTÍSTICOS, este año se seleccionaron los talleres de ARTE, YOGA y FOLCKLORE, los mismos irán variando en función de los cursos.",
+    "sector": "privado",
+    "modalidad": "mixta",
+    "comentarios":[{
+        "usuario": "",
+        "star": "", 
+        "descripcion": "" 
+    }]
+},
+{
+    "nombre": "B.S.P.A. ESCUELA J.V.SOLA",
+    "descripcion": "",
+    "imagen": "",
+    "direccion":"//www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14409.317689595438!2d-65.41832744078494!3d-24.767907041347012!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x941bc3dcf3bebc47%3A0xa806826582c4031e!2sEscuela%20N.%204018%20Dr.%20Jos%C3%A9%20Vicente%20Sol%C3%A1!5e0!3m2!1ses-419!2sar!4v1702817398350!5m2!1ses-419!2sar", 
+    "zona": "norte",
+    "tipo": "BSPA",
+    "contacto":"03874393552",
+    "otros": "",
+    "sector": "estatal",
+    "modalidad": "",
+    "comentarios":[{
+        "usuario": "",
+        "star": "", 
+        "descripcion": "" 
+    }]
+},
+{
+    "nombre": "ESCUELA DE EDUCACION ESPECIAL EFETA N° 7044",
+    "descripcion": "Hablo con las manos, escucho con los ojos.  pero al igual que vos siento con el corazon",
+    "imagen": "",
+    "direccion":"//www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14202.652264633707!2d-65.42223339781044!3d-24.727378547555617!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x941bc105c06fcb39%3A0xd0c167eb23b87ef0!2sEscuela%20Biling%C3%BCe%20Para%20Ni%C3%B1os%20Sordos%20e%20Hipoacusicos%20EFETA%20N%C2%B07044!5e0!3m2!1ses-419!2sar!4v1702817574240!5m2!1ses-419!2sar", 
+    "zona": "norte",
+    "tipo": "especial",
+    "contacto":"",
+    "otros": "",
+    "sector": "estatal",
+    "modalidad": "mixta",
+    "comentarios":[{
+        "usuario": "",
+        "star": "", 
+        "descripcion": "" 
+    }]
+},
+{
+    "nombre": "Escuela Adet",
+    "descripcion": "",
+    "imagen": "",
+    "direccion":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d157287.61789452253!2d-65.52345252043236!3d-24.843868676861767!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x941bdd54a823ca1f%3A0x93fd66e6be2eed63!2sEscuela%20Adet!5e0!3m2!1ses-419!2sar!4v1702819423474!5m2!1ses-419!2sar", 
+    "zona": "sur",
+    "tipo": "secundario",
+    "contacto":"03874290667",
+    "otros": "",
+    "sector": "estatal",
+    "modalidad": "",
+    "comentarios":[{
+        "usuario": "",
+        "star": "", 
+        "descripcion": "" 
+    }]
+},
+{
+    "nombre": "Colegio N°5167-Dr. Miguel Ragone",
+    "descripcion": "",
+    "imagen": "",
+    "direccion":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d91838.67786647525!2d-65.43065566321275!3d-24.823551979769913!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x941bc47b70b4515f%3A0x8023a4f73d7a10c6!2sColegio%20N%C2%B05167-Dr.%20Miguel%20Ragone%20Salta!5e0!3m2!1ses-419!2sar!4v1702819552899!5m2!1ses-419!2sar", 
+    "zona": "este",
+    "tipo": "secudario",
+    "contacto":"03874282802",
+    "otros": "",
+    "sector": "estatal",
+    "modalidad": "mixta",
+    "comentarios":[{
+        "usuario": "",
+        "star": "", 
+        "descripcion": "" 
+    }]
+},
+{
+    "nombre": "Colegio Secundario Dr Ernesto Miguel Araoz",
+    "descripcion": "",
+    "imagen": "",
+    "direccion":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d162418.039163474!2d-65.56651797565782!3d-24.909796201877807!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x941bc3b914ecffb9%3A0x2abbb19fcd7d26c6!2sColegio%20Secundario%20Dr%20Ernesto%20Miguel%20Araoz!5e0!3m2!1ses-419!2sar!4v1702819684950!5m2!1ses-419!2sar", 
+    "zona": "sur",
+    "tipo": "secundario",
+    "contacto":"03874240499",
+    "otros": "",
+    "sector": "estatal",
+    "modalidad": "mixta",
+    "comentarios":[{
+        "usuario": "",
+        "star": "", 
+        "descripcion": "" 
+    }]
+},
+{
     "nombre": "",
     "descripcion": "",
     "imagen": "",
     "direccion":"", 
-    "zona": "",
+    "zona": "este",
+    "tipo": "",
     "contacto":"",
     "otros": "",
     "sector": "",
@@ -28,7 +149,40 @@
         "usuario": "",
         "star": "", 
         "descripcion": "" 
-    }
-    ]
+    }]
+},
+{
+    "nombre": "",
+    "descripcion": "",
+    "imagen": "",
+    "direccion":"", 
+    "zona": "este",
+    "tipo": "",
+    "contacto":"",
+    "otros": "",
+    "sector": "",
+    "modalidad": "",
+    "comentarios":[{
+        "usuario": "",
+        "star": "", 
+        "descripcion": "" 
+    }]
+},
+{
+    "nombre": "",
+    "descripcion": "",
+    "imagen": "",
+    "direccion":"", 
+    "zona": "este",
+    "tipo": "",
+    "contacto":"",
+    "otros": "",
+    "sector": "",
+    "modalidad": "",
+    "comentarios":[{
+        "usuario": "",
+        "star": "", 
+        "descripcion": "" 
+    }]
 }
 ]
