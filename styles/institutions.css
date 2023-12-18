@@ -65,7 +65,13 @@ button:focus{
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
 
-.category-button:hover {
+.category-button:hover,
+.category-button-active:hover {
+    background-color:  #F0F0F0;
+    border-color: #2c7873;
+    color: #2c7873;
+}
+.category-button-active {
     background-color:  #F0F0F0;
     border-color: #2c7873;
     color: #2c7873;

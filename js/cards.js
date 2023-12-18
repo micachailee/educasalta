@@ -1,58 +1,41 @@
-var cardsArticle = document.getElementById('main-content');
+import { Institucion } from './institution.js'; 
 
-var allData;
-var filter ='nombre';
-var value = '';
+var cardsArticle = document.getElementById('main-content');
+var instituciones;
+
+const filtros = {
+    nombre: "",
+    zona: "",
+    tipo: "",
+    sector: "",
+    modalidad: "",
+};
 
 fetch('../instituciones.json')
     .then(response => response.json())
     .then(data => {
-        allData = data;
-        FilterBy(filter, value);
+        instituciones = data.map(item => new Institucion(item.nombre, item.descripcion, item.imagen, item.direccion, item.zona, item.tipo, item.contacto, item.otros, item.sector, item.modalidad, item.comentarios));
+        createElements(instituciones);
     })
     .catch(error => console.error('Error al obtener el JSON:', error));
 
-function FilterBy(filter, value) {
-
-    if (allData) {
-        cardsArticle.innerHTML = `<h4>Resultados de Busqueda de ${value.toUpperCase()}</h4>`;
-        allData.forEach(function (item) {
-            if (filterMatches(item, filter, value)) {
-                createNewCard(item);
-            }
-        });
-    }
+function FilterBy(institucion, filtros) {
+    return Object.entries(filtros).every(([filtro, valor]) => institucion[filtro].toLowerCase().includes(valor.toLowerCase()));
 }
 
-function filterMatches(item, filter, value) {
-
-    var filterFunctions = {
-        'nivel': function(item, value) {
-            return item.nivel.toLowerCase() === value.toLowerCase();
-        },
-        'nombre': function(item, value) {
-            return item.nombre.toLowerCase().includes(value.toLowerCase());
-        },
-        'sector': function(item, value) {
-            return item.sector.toLowerCase() === value.toLowerCase();
-        },
-        'modalidad':function(item, value) {
-            return item.modalidad.toLowerCase() === value.toLowerCase();
-        },
-        'zona': function(item, value) {
-            return item.zona.toLowerCase() === value.toLowerCase();
-        },
-    };
-
-    if (filterFunctions[filter]) {
-        return filterFunctions[filter](item, value);
-    }
-    return false;
+function createElements(instituciones) {
+    instituciones.forEach(institucion => {
+        institucion.active = FilterBy(institucion, filtros);
+    });
+    const institucionesActivas = instituciones.filter(institucion => institucion.active);
+    cardsArticle.innerHTML = `<h4>Resultados de Búsqueda</h4>`;
+    institucionesActivas.forEach(institucion => {
+        console.log(institucion.nombre);
+        createNewCard(institucion);
+    });
 }
 
-
-function createNewCard(item){
-
+function createNewCard(institucion) {
     var cardSection = document.createElement('section');
     cardSection.classList.add('content-section');
 
@@ -60,15 +43,15 @@ function createNewCard(item){
     contentInfo.classList.add('content-info');
 
     var imgInst = document.createElement('img');
-    imgInst.src = item.imagen;
-    imgInst.alt = 'Imagen de la institucion';
+    imgInst.src = institucion.imagen;
+    imgInst.alt = 'Imagen de la institución';
 
     var titleInst = document.createElement('h3');
-    titleInst.innerText = item.nombre;
+    titleInst.innerText = institucion.nombre;
 
     var readmButton = document.createElement('button');
     readmButton.classList.add('read-more');
-    readmButton.innerText = 'Ver mas';
+    readmButton.innerText = 'Ver más';
 
     contentInfo.appendChild(imgInst);
     contentInfo.appendChild(titleInst);
@@ -79,11 +62,57 @@ function createNewCard(item){
     cardsArticle.appendChild(cardSection);
 }
 
-const searchInput = document.getElementById('searchInput');
-
-searchInput.addEventListener('input', function(){
-    value = searchInput.value.trim().toLowerCase();
-    filter = 'nombre';
-    FilterBy(filter, value);
+document.getElementById('private-filter').addEventListener('click', function () {
+    filtros.sector = 'privado';
+    createElements(instituciones);
 });
 
+document.getElementById('state-filter').addEventListener('click', function () {
+    filtros.sector = 'estatal';
+    createElements(instituciones);
+});
+
+document.getElementById('om-filter').addEventListener('click', function () {
+    filtros.modalidad = 'varones';
+    createElements(instituciones);
+});
+
+document.getElementById('ow-filter').addEventListener('click', function () {
+    filtros.modalidad = 'mujeres';
+    createElements(instituciones);
+});
+
+document.getElementById('m-filter').addEventListener('click', function () {
+    filtros.modalidad = 'mixta';
+    createElements(instituciones);
+});
+
+document.getElementById('s-filter').addEventListener('click', function () {
+    filtros.zona = 'sur';
+    createElements(instituciones);
+});
+
+document.getElementById('n-filter').addEventListener('click', function () {
+    filtros.zona = 'norte';
+    createElements(instituciones);
+});
+
+document.getElementById('e-filter').addEventListener('click', function () {
+    filtros.zona = 'este';
+    createElements(instituciones);
+});
+
+document.getElementById('o-filter').addEventListener('click', function () {
+    filtros.zona = 'oeste';
+    createElements(instituciones);
+});
+
+document.getElementById('c-filter').addEventListener('click', function () {
+    filtros.zona = 'centro';
+    createElements(instituciones);
+});
+
+document.getElementById('searchInput').addEventListener('input', function () {
+    filtros.nombre = searchInput.value.trim().toLowerCase();
+    createElements(instituciones);
+});
