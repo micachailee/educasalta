@@ -135,6 +135,227 @@
     }]
 },
 {
+    "nombre": "INSTITUTO DE EDUCACION MEDIA DR.ARTURO OÑATIVIA UNSA N°16",
+    "descripcion": "El Instituto de Educación Media Dr. Arturo Oñativia dependiente de la Universidad Nacional de Salta, es un Colegio de Educación Secundaria, o también llamado Pre-Universitario, o de Educación Media, destinado a estudiantes menores de edad (entre 12 y 17 años).",
+    "imagen": "",
+    "direccion":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3624.0273176723417!2d-65.40763922492262!3d-24.725942405407075!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x941bc12c877d172d%3A0xae024981e46dda22!2sInstituto%20de%20Educaci%C3%B3n%20Media%20%22Dr.%20Arturo%20O%C3%B1ativia%22!5e0!3m2!1ses-419!2sar!4v1702898785678!5m2!1ses-419!2sar", 
+    "zona": "norte",
+    "tipo": "secundario",
+    "contacto":"https://iem.unsa.edu.ar/index.php/institucional/quienes-somos",
+    "otros": "BACHILLER EN FORMULACIÓN Y EVALUACIÓN DE PROYECTOS",
+    "sector": "estatal",
+    "modalidad": "mixta",
+    "comentarios":[{
+        "usuario": "",
+        "star": "", 
+        "descripcion": "" 
+    }]
+},
+{
+    "nombre": "ESCUELA DE EDUCACION TECNICA REPUBLICA DE LA INDIA Nª 3100 EX N°5100-7100",
+    "descripcion": "",
+    "imagen": "",
+    "direccion":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d44019.004511443556!2d-65.42805494138626!3d-24.795811299740855!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x941bc3c972288845%3A0x95dc3dc093ba2659!2sEscuela%20de%20Educaci%C3%B3n%20T%C3%A9cnica%20y%20C.F.P.%20No.%203.100%20Rep%C3%BAblica%20de%20la%20India!5e0!3m2!1ses-419!2sar!4v1702899727463!5m2!1ses-419!2sar", 
+    "zona": "oeste",
+    "tipo": "secundario",
+    "contacto":"+543874953404, https://tecnicadelaindia.edu.ar/",
+    "otros": "tecnino en electronica, tecnico en informatica profesional y personal",
+    "sector": "estatal",
+    "modalidad": "mixto",
+    "comentarios":[{
+        "usuario": "",
+        "star": "", 
+        "descripcion": "" 
+    }]
+},
+{
+    "nombre": "Escuela N 4003 Doctor Joaquin Castellanos",
+    "descripcion": "",
+    "imagen": "",
+    "direccion":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d28977.99315966977!2d-65.42470248844711!3d-24.786920878308948!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x941bc370db3bcfeb%3A0xb4a161060c2810a3!2sEscuela%20N%204003%20Doctor%20Joaquin%20Castellanos!5e0!3m2!1ses-419!2sar!4v1702900559798!5m2!1ses-419!2sar", 
+    "zona": "este",
+    "tipo": "primario jardin",
+    "contacto":"03874280762",
+    "otros": "",
+    "sector": "estatal",
+    "modalidad": "mixta",
+    "comentarios":[{
+        "usuario": "",
+        "star": "", 
+        "descripcion": "" 
+    }]
+},
+{
+    "nombre": "INSTITUTO MADRE MARIA SARA LONA",
+    "descripcion": "",
+    "imagen": "",
+    "direccion":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3621.738682336287!2d-65.41954892491958!3d-24.80440010843281!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x941bc305ad39888f%3A0xef0c40ce0e9681bc!2sInstitutos%20La%20Inmaculada%20Madre%20Mar%C3%ADa%20Sara%20Lona!5e0!3m2!1ses-419!2sar!4v1702901093143!5m2!1ses-419!2sar", 
+    "zona": "sur",
+    "tipo": "secundario",
+    "contacto":"(0387) 4231022, http://campus.hijasdelainmaculadaconcepciondelacaridad.com/",
+    "otros": "BACHILLER en CIENCIAS SOCIALES Y HUMANIDADES, funciona en el turno de la mañana.",
+    "sector": "privado",
+    "modalidad": "mixta",
+    "comentarios":[{
+        "usuario": "",
+        "star": "", 
+        "descripcion": "" 
+    }]
+},
+{
+    "nombre": "Escuela Parroquial Martín Fierro Ex Nº 27 Bis",
+    "descripcion": "Escuela Parroquial Martín Fierro Ex Nº 27 Bis es una institución educativa de gestión privada, mixta, de jornada simple y con orientación en valores de la religión Católica; disponiendo de infraestructura religiosa propia. Escuela Parroquial Martín Fierro Ex Nº 27 Bis ofrece servicios educativos en la modalidad de educación común en 2 niveles: jardin de infantes y nivel primario.",
+    "imagen": "",
+    "direccion":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8408.062750521563!2d-65.43680133440341!3d-24.77706062091117!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x941bc232d0e88c3b%3A0xeb13ea7235b203b7!2sEscuela%20No.%20997%20Parroquial%20Mart%C3%ADn%20Fierro!5e0!3m2!1ses-419!2sar!4v1702903113897!5m2!1ses-419!2sar", 
+    "zona": "oeste",
+    "tipo": "primario",
+    "contacto":"03874312852",
+    "otros": "",
+    "sector": "privado",
+    "modalidad": "mixta",
+    "comentarios":[{
+        "usuario": "",
+        "star": "", 
+        "descripcion": "" 
+    }]
+},
+{
+    "nombre": "Escuela Parroquial Martín Fierro Ex Nº 27 Bis",
+    "descripcion": "Escuela Parroquial Martín Fierro Ex Nº 27 Bis es una institución educativa de gestión privada, mixta, de jornada simple y con orientación en valores de la religión Católica; disponiendo de infraestructura religiosa propia. Escuela Parroquial Martín Fierro Ex Nº 27 Bis ofrece servicios educativos en la modalidad de educación común en 2 niveles: jardin de infantes y nivel primario.",
+    "imagen": "",
+    "direccion":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8408.062750521563!2d-65.43680133440341!3d-24.77706062091117!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x941bc232d0e88c3b%3A0xeb13ea7235b203b7!2sEscuela%20No.%20997%20Parroquial%20Mart%C3%ADn%20Fierro!5e0!3m2!1ses-419!2sar!4v1702903113897!5m2!1ses-419!2sar", 
+    "zona": "oeste",
+    "tipo": "jardin",
+    "contacto":"03874312852",
+    "otros": "",
+    "sector": "privado",
+    "modalidad": "mixta",
+    "comentarios":[{
+        "usuario": "",
+        "star": "", 
+        "descripcion": "" 
+    }]
+},
+{
+    "nombre": "ESCUELA PARROQUIAL NTRA.SRA.DE LA CANDELARIA EX N° 26 BIS",
+    "descripcion": "Escuela Parroquial Nuestra Señora de La Candelaria Ex Nº 26 Bis es una institución educativa de gestión privada, mixta, de jornada simple y con orientación en valores de la religión Católica; disponiendo de infraestructura religiosa propia. Escuela Parroquial Nuestra Señora de La Candelaria Ex Nº 26 Bis ofrece servicios educativos en la modalidad de educación común en 2 niveles: jardin de infantes y nivel primario.",
+    "imagen": "",
+    "direccion":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d50512.312825177156!2d-65.42002374854138!3d-24.814419613685317!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x941bc3882df81c23%3A0xf02322f079b3ec4a!2sEscuela%20Nuestra%20Se%C3%B1ora%20De%20La%20Candelaria!5e0!3m2!1ses-419!2sar!4v1702903663938!5m2!1ses-419!2sar", 
+    "zona": "sur",
+    "tipo":"jardin",
+    "contacto":"",
+    "otros": "",
+    "sector": "privado",
+    "modalidad": "mixta",
+    "comentarios":[{
+        "usuario": "",
+        "star": "", 
+        "descripcion": "" 
+    }]
+},
+{
+    "nombre": "ESCUELA PARROQUIAL NTRA.SRA.DE LA CANDELARIA EX N° 26 BIS",
+    "descripcion": "Escuela Parroquial Nuestra Señora de La Candelaria Ex Nº 26 Bis es una institución educativa de gestión privada, mixta, de jornada simple y con orientación en valores de la religión Católica; disponiendo de infraestructura religiosa propia. Escuela Parroquial Nuestra Señora de La Candelaria Ex Nº 26 Bis ofrece servicios educativos en la modalidad de educación común en 2 niveles: jardin de infantes y nivel primario.",
+    "imagen": "",
+    "direccion":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d50512.312825177156!2d-65.42002374854138!3d-24.814419613685317!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x941bc3882df81c23%3A0xf02322f079b3ec4a!2sEscuela%20Nuestra%20Se%C3%B1ora%20De%20La%20Candelaria!5e0!3m2!1ses-419!2sar!4v1702903663938!5m2!1ses-419!2sar", 
+    "zona": "sur",
+    "tipo":"primario",
+    "contacto":"",
+    "otros": "",
+    "sector": "privado",
+    "modalidad": "mixta",
+    "comentarios":[{
+        "usuario": "",
+        "star": "", 
+        "descripcion": "" 
+    }]
+},
+{
+    "nombre": "",
+    "descripcion": "",
+    "imagen": "",
+    "direccion":"", 
+    "zona": "este",
+    "tipo": "",
+    "contacto":"",
+    "otros": "",
+    "sector": "",
+    "modalidad": "",
+    "comentarios":[{
+        "usuario": "",
+        "star": "", 
+        "descripcion": "" 
+    }]
+},
+{
+    "nombre": "",
+    "descripcion": "",
+    "imagen": "",
+    "direccion":"", 
+    "zona": "este",
+    "tipo": "",
+    "contacto":"",
+    "otros": "",
+    "sector": "",
+    "modalidad": "",
+    "comentarios":[{
+        "usuario": "",
+        "star": "", 
+        "descripcion": "" 
+    }]
+},
+{
+    "nombre": "",
+    "descripcion": "",
+    "imagen": "",
+    "direccion":"", 
+    "zona": "este",
+    "tipo": "",
+    "contacto":"",
+    "otros": "",
+    "sector": "",
+    "modalidad": "",
+    "comentarios":[{
+        "usuario": "",
+        "star": "", 
+        "descripcion": "" 
+    }]
+},
+{
+    "nombre": "",
+    "descripcion": "",
+    "imagen": "",
+    "direccion":"", 
+    "zona": "este",
+    "tipo": "",
+    "contacto":"",
+    "otros": "",
+    "sector": "",
+    "modalidad": "",
+    "comentarios":[{
+        "usuario": "",
+        "star": "", 
+        "descripcion": "" 
+    }]
+},
+{
+    "nombre": "",
+    "descripcion": "",
+    "imagen": "",
+    "direccion":"", 
+    "zona": "este",
+    "tipo": "",
+    "contacto":"",
+    "otros": "",
+    "sector": "",
+    "modalidad": "",
+    "comentarios":[{
+        "usuario": "",
+        "star": "", 
+        "descripcion": "" 
+    }]
+},
+{
     "nombre": "",
     "descripcion": "",
     "imagen": "",
