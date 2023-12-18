@@ -63,72 +63,72 @@ function createNewCard(institucion) {
 }
 
 document.getElementById('private-filter').addEventListener('click', function (e) {
-    filtros.sector = 'privado';
     e.target.classList.toggle('category-button-active');
     e.target.classList.toggle('category-button');
+    filtros.sector = e.target.classList.contains('category-button-active') ? 'privado' : '';
     createElements(instituciones);
 });
 
 document.getElementById('state-filter').addEventListener('click', function (e) {
-    filtros.sector = 'estatal';
     e.target.classList.toggle('category-button-active');
     e.target.classList.toggle('category-button');
+    filtros.sector = e.target.classList.contains('category-button-active') ? 'estatal' : '';
     createElements(instituciones);
 });
 
 document.getElementById('om-filter').addEventListener('click', function (e) {
-    filtros.modalidad = 'varones';
     e.target.classList.toggle('category-button-active');
     e.target.classList.toggle('category-button');
+    filtros.modalidad = e.target.classList.contains('category-button-active') ? 'varones' : '';
     createElements(instituciones);
 });
 
 document.getElementById('ow-filter').addEventListener('click', function (e) {
-    filtros.modalidad = 'mujeres';
     e.target.classList.toggle('category-button-active');
     e.target.classList.toggle('category-button');
+    filtros.modalidad = e.target.classList.contains('category-button-active') ? 'mujeres' : '';
     createElements(instituciones);
 });
 
 document.getElementById('m-filter').addEventListener('click', function (e) {
-    filtros.modalidad = 'mixta';
     e.target.classList.toggle('category-button-active');
     e.target.classList.toggle('category-button');
+    filtros.modalidad = e.target.classList.contains('category-button-active') ? 'mixta' : '';
     createElements(instituciones);
 });
 
 document.getElementById('s-filter').addEventListener('click', function (e) {
-    filtros.zona = 'sur';
     e.target.classList.toggle('category-button-active');
     e.target.classList.toggle('category-button');
+    filtros.zona = e.target.classList.contains('category-button-active') ? 'sur' : '';
     createElements(instituciones);
 });
 
 document.getElementById('n-filter').addEventListener('click', function (e) {
-    filtros.zona = 'norte';
     e.target.classList.toggle('category-button-active');
     e.target.classList.toggle('category-button');
+    filtros.zona = e.target.classList.contains('category-button-active') ? 'norte' : '';
     createElements(instituciones);
 });
 
 document.getElementById('e-filter').addEventListener('click', function (e) {
-    filtros.zona = 'este';
     e.target.classList.toggle('category-button-active');
     e.target.classList.toggle('category-button');
+    filtros.zona = e.target.classList.contains('category-button-active') ? 'este' : '';
     createElements(instituciones);
 });
 
 document.getElementById('o-filter').addEventListener('click', function (e) {
-    filtros.zona = 'oeste';
     e.target.classList.toggle('category-button-active');
     e.target.classList.toggle('category-button');
+    filtros.zona = e.target.classList.contains('category-button-active') ? 'oeste' : '';
     createElements(instituciones);
 });
 
 document.getElementById('c-filter').addEventListener('click', function (e) {
-    filtros.zona = 'centro';
     e.target.classList.toggle('category-button-active');
     e.target.classList.toggle('category-button');
+    filtros.zona = e.target.classList.contains('category-button-active') ? 'centro' : '';
     createElements(instituciones);
 });
 
