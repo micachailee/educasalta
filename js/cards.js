@@ -30,7 +30,6 @@ function createElements(instituciones) {
     const institucionesActivas = instituciones.filter(institucion => institucion.active);
     cardsArticle.innerHTML = `<h4>Resultados de Búsqueda</h4>`;
     institucionesActivas.forEach(institucion => {
-        console.log(institucion.nombre);
         createNewCard(institucion);
     });
 }
