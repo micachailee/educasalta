@@ -90,6 +90,8 @@ button:focus{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    padding: 2rem 0;
+    gap: 2rem;
     /* display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr; /* Divide en dos columnas iguales */
     /* grid-gap: 10px; Espacio entre las columnas */ 
@@ -107,7 +109,6 @@ button:focus{
     border: 1px solid #ccc;
     border-radius: 8px;
     padding: 20px;
-    margin: 20px;
     box-shadow: 0 4px 8px #2c7873;
     background-color: #fff;
     transition: transform 0.3s ease-in-out;

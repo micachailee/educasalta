@@ -28,7 +28,7 @@ function createElements(instituciones) {
         institucion.active = FilterBy(institucion, filtros);
     });
     const institucionesActivas = instituciones.filter(institucion => institucion.active);
-    // cardsArticle.innerHTML = `<h4>Resultados de Búsqueda</h4>`;
+    cardsArticle.innerHTML = '';
     institucionesActivas.forEach(institucion => {
         createNewCard(institucion);
     });
