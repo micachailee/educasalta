@@ -1,7 +1,7 @@
 [{
     "nombre": "COLEGIO SALESIANO ANGEL ZERDA",
     "descripcion": "Además de los Salesianos consagrados que animan la vida comunitaria, son más de doscientos cincuenta los educadores que trabajan en la Obra, entre maestros, profesores, personal de apoyo, catequistas y animadores de grupos. Todos ellos brindan su tiempo en la educación de más de dos mil alumnos en el sector escolar, y otros mil niños y jóvenes que participan del amplísimo Movimiento Juvenil Salesiano: Exploradores de Don Bosco, Oratorio, Catequesis, Grupos de oración, Misioneros y de Música…",
-    "imagen": "",
+    "imagen": "img/colegiosalesianoangelzerda.jpg",
     "direccion":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3622.1916387944502!2d-65.42251292463133!3d-24.788890577976137!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x941bc3b1ae360a57%3A0x3c684f6c15497297!2sColegio%20Salesiano%20-%20Angel%20Zerda!5e0!3m2!1ses-419!2sar!4v1702580669462!5m2!1ses-419!2sar", 
     "zona": "centro",
     "tipo": "secundario",
@@ -18,7 +18,7 @@
 {
     "nombre": "COLIBRI-ASOC.SALTEÑA SINDROME DE DOWN",
     "descripcion": "El propósito fundamental de la Fundación Por Igual Más es promover el reconocimiento de las personas con discapacidad a través de tres estrategias: empoderar, accesibilizar, incidir publicamente",
-    "imagen": "",
+    "imagen": "img/colibri.png",
     "direccion":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d44725.61256540197!2d-65.43174036626966!3d-24.781867615016978!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x941bc301980d341b%3A0x4e307a66ce0b31bd!2sCOLIBR%C3%8D%20Asociaci%C3%B3n%20salte%C3%B1a%20s%C3%ADndrome%20de%20Down!5e0!3m2!1ses-419!2sar!4v1702582420410!5m2!1ses-419!2sar", 
     "zona": "norte",
     "tipo": "especial",
@@ -35,7 +35,7 @@
 {
     "nombre": "Colegio Santo Tomas de Villanueva",
     "descripcion": "El Nivel Primario del Colegio Santo Tomás de Villanueva está destinada a la formación básica de alumnos y alumnas a partir de los 6 años. La formación curricular en castellano se complementa con formación en talleres por la tarde, con idioma inglés.",
-    "imagen": "",
+    "imagen": "img/ColegioSantoTomasdeVillanueva.jpg",
     "direccion":"//www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d120048.73151936039!2d-65.49004769932026!3d-24.87089408020256!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x941bc32683368fb7%3A0x2624175a88a983dc!2sColegio%20Santo%20Tomas%20de%20Villanueva!5e0!3m2!1ses-419!2sar!4v1702816505625!5m2!1ses-419!2sar", 
     "zona": "Sur",
     "tipo": "primario",
