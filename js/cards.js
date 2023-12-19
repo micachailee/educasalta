@@ -51,6 +51,10 @@ function createNewCard(institucion) {
     var readmButton = document.createElement('button');
     readmButton.classList.add('read-more');
     readmButton.innerText = 'Ver más';
+    readmButton.addEventListener('click',function(){
+        const siguientePaginaURL = `informacion.html?titulo=${encodeURIComponent(institucion.nombre)}`;
+        window.location.href = siguientePaginaURL;
+    })
 
     contentInfo.appendChild(imgInst);
     contentInfo.appendChild(titleInst);
