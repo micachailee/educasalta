@@ -2,7 +2,7 @@ document.write(`
 <header class="header_section">
     <div class="header_bottom">
     <div class="container-fluid">
-        <nav class="navbar navbar-expand-lg custom_nav-container fixed-top">
+        <nav class="navbar navbar-expand-lg custom_nav-container fixed-top" id="navbar">
         <a class="navbar-brand " href="#index" id="logo"> EDUCASALTA </a>
 
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -43,3 +43,14 @@ document.write(`
     </div>
 </header>
 `);
+document.addEventListener("DOMContentLoaded", function () {
+    window.addEventListener("scroll", function () {
+      var navbar = document.getElementById("navbar");
+      if (window.scrollY > 100) {
+        navbar.classList.add("scrolled");
+      } else {
+        navbar.classList.remove("scrolled");
+      }
+    });
+  });
+  

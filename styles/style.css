@@ -242,6 +242,8 @@ a:focus {
 
 .custom_nav-container {
   padding: 0;
+  min-height: 60px;
+  transition: background-color 0.5s ease;
 }
 
 .custom_nav-container .navbar-nav {

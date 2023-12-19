@@ -5,10 +5,7 @@ body{
     color: #0c0c0c;
     background-color: #F0F0F0;
 }/*#172a49*/
-nav{
-    min-height: 40px;
-    background-color: #0c0c0c;
-}
+
 a{
     padding: 10px;
 }
