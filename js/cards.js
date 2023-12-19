@@ -28,25 +28,31 @@ function createElements(instituciones) {
         institucion.active = FilterBy(institucion, filtros);
     });
     const institucionesActivas = instituciones.filter(institucion => institucion.active);
-    cardsArticle.innerHTML = `<h4>Resultados de Búsqueda</h4>`;
+    // cardsArticle.innerHTML = `<h4>Resultados de Búsqueda</h4>`;
     institucionesActivas.forEach(institucion => {
         createNewCard(institucion);
     });
 }
 
+
+
+
 function createNewCard(institucion) {
     var cardSection = document.createElement('section');
     cardSection.classList.add('content-section');
 
-    var contentInfo = document.createElement('div');
-    contentInfo.classList.add('content-info');
+    
 
     var imgInst = document.createElement('img');
     imgInst.src = institucion.imagen;
     imgInst.alt = 'Imagen de la institución';
+    imgInst.classList.add('inst-img');
 
     var titleInst = document.createElement('h3');
     titleInst.innerText = institucion.nombre;
+    
+    var contentInfo = document.createElement('div');
+    contentInfo.classList.add('content-info');
 
     var readmButton = document.createElement('button');
     readmButton.classList.add('read-more');
@@ -60,6 +66,33 @@ function createNewCard(institucion) {
 
     cardsArticle.appendChild(cardSection);
 }
+//codigo micaela A.
+// function createNewCard(institucion) {
+//     var cardLink = document.createElement('a');
+//     cardLink.href = institucion.direccion;
+
+//     var cardSection = document.createElement('section');
+//     cardSection.classList.add('content-section');
+
+//     var imgInst = document.createElement('img');
+//     imgInst.src = institucion.imagen;
+//     imgInst.alt = 'Imagen de la institución';
+//     imgInst.classList.add('inst-img'); // Nueva clase para la imagen
+
+//     var titleInst = document.createElement('h3');
+//     titleInst.innerText = institucion.nombre;
+
+//     var readmButton = document.createElement('button');
+//     readmButton.classList.add('read-more');
+//     readmButton.innerText = 'Ver más';
+
+//     cardSection.appendChild(imgInst);
+//     cardSection.appendChild(titleInst);
+//     cardSection.appendChild(readmButton);
+
+//     cardLink.appendChild(cardSection);
+//     cardsArticle.appendChild(cardLink);
+// }
 
 document.getElementById('private-filter').addEventListener('click', function (e) {
     e.target.classList.toggle('category-button-active');
