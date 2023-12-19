@@ -11,7 +11,7 @@ const filtros = {
     modalidad: "",
 };
 
-fetch('../instituciones.json')
+fetch('instituciones.json')
     .then(response => response.json())
     .then(data => {
         instituciones = data.map(item => new Institucion(item.nombre, item.descripcion, item.imagen, item.direccion, item.zona, item.tipo, item.contacto, item.otros, item.sector, item.modalidad, item.comentarios));

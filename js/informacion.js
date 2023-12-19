@@ -13,7 +13,7 @@ const contacto = document.getElementById("contacto");
 
 function cargarInstituciones(callback) {
     // En este ejemplo, la URL podría ser la ruta local o una URL remota
-    fetch('../instituciones.json')
+    fetch('instituciones.json')
       .then(response => response.json())
       .then(data => {
         callback(data);
