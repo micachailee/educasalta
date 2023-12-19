@@ -6,13 +6,12 @@ button:focus{
 }
 .main-container {
     display: flex;
-    /* background: linear-gradient(90deg,#60b3ad,#F0F0F0); */
 }
-
 
 .sidebar {
     width: 20%;
     margin: 20px;
+    flex-shrink: 0;
 }
 
 .sidebar h2{
@@ -88,12 +87,15 @@ button:focus{
 
 .main-content {
     width: 75%;
-    display: grid;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    /* display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr; /* Divide en dos columnas iguales */
-    grid-gap: 10px; /* Espacio entre las columnas */
+    /* grid-gap: 10px; Espacio entre las columnas */ 
     /* width: 80%;
     min-height: 100vh;
-    padding: 20px;
+    
     justify-content: center;
     align-items: center; */
 }
@@ -105,12 +107,10 @@ button:focus{
     border: 1px solid #ccc;
     border-radius: 8px;
     padding: 20px;
-    margin-bottom: 20px;
+    margin: 20px;
     box-shadow: 0 4px 8px #2c7873;
     background-color: #fff;
     transition: transform 0.3s ease-in-out;
-    display: flex;
-    flex-wrap: wrap;
     flex-direction: column; /* Coloca los elementos uno encima del otro */
     align-items: center; /* Centra horizontalmente */
     text-align: center; /* Alinea el texto al centro */
