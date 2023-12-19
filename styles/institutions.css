@@ -6,7 +6,7 @@ button:focus{
 }
 .main-container {
     display: flex;
-    background: linear-gradient(90deg,#60b3ad,#F0F0F0);
+    /* background: linear-gradient(90deg,#60b3ad,#F0F0F0); */
 }
 
 
