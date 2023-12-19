@@ -6,11 +6,13 @@ button:focus{
 }
 .main-container {
     display: flex;
+    background: linear-gradient(90deg,#60b3ad,#F0F0F0);
 }
+
 
 .sidebar {
     width: 20%;
-    padding: 20px;
+    margin: 20px;
 }
 
 .sidebar h2{
@@ -72,62 +74,99 @@ button:focus{
     color: #2c7873;
 }
 .category-button-active {
+    font-size: 15px;
+    padding: 10px;
+    color: #F0F0F0;
+    border: 1px solid #2c7873;
+    border-radius: .25rem;
+    margin-bottom: 5px;
+    cursor: pointer;  
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
     background-color:  #F0F0F0;
-    border-color: #2c7873;
     color: #2c7873;
 }
 
 .main-content {
-    width: 80%;
+    width: 75%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr; /* Divide en dos columnas iguales */
+    grid-gap: 10px; /* Espacio entre las columnas */
+    /* width: 80%;
+    min-height: 100vh;
     padding: 20px;
     justify-content: center;
-    align-items: center;
+    align-items: center; */
 }
 
+
+
+/* Estilos para la sección de tarjeta */
 .content-section {
-    height: 30vh;
-    background-color: #f7f7f7;
-    border-radius: 15px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    overflow: hidden;
-    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px #2c7873;
+    background-color: #fff;
+    transition: transform 0.3s ease-in-out;
     display: flex;
-    align-items: center;
-    padding: 2rem;
-    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: column; /* Coloca los elementos uno encima del otro */
+    align-items: center; /* Centra horizontalmente */
+    text-align: center; /* Alinea el texto al centro */
+    width: 260px;
+    height: 360px;
 }
 
+/* Estilos para cuando se pasa el mouse sobre la tarjeta */
 .content-section:hover {
-    transform: scale(1.02);
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px #2c7873;;
 }
 
-.content-info {
-    display: flex;
-    width: 85%;
-    height: 100%;
-    align-items: center;
+/* Nueva clase para la imagen */
+.inst-img {
+    width: 220px;
+    height: 150px;
+    object-fit: cover;
+    background-color: #2c7873;
+    margin-bottom: 10px; /* Espacio entre la imagen y el título */
 }
 
-img {
-    height: 100%;
-    width: 20%;
-    background-color: #0c0c0c;
-    margin-right: 1.5rem;
-    border-radius: .25rem;
+/* Estilos para el título */
+.content-section h3 {
+    font-size: 1.2em;
+    margin: 0;
+    margin-bottom: 10px; /* Espacio entre el título y el botón */
 }
 
+/* Estilos para el botón "Ver más" */
 .read-more {
-    background-color: transparent;
-    color: #2c7873;
-    border-radius: .25rem;
+    background-color: #2c7873;;
+    color: #fff;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 3px;
     cursor: pointer;
-    font-size: 20px;
-    padding: .5rem;
 }
+/* @media screen and (max-width: 768px) {
+    .content-section {
+        padding: 15px;
+    }
+    .inst-img {
+        width: 60px;
+        height: 60px;
+    }
+    .content-section h3 {
+        font-size: 1em;
+    }
+    .read-more {
+        padding: 6px 10px;
+    }
+} */
 
-.read-more:hover {
-    background-color: transparent;
-}
+
+
 
 @media (max-width:767px) {
 

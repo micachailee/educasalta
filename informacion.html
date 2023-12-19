@@ -34,23 +34,25 @@
                     <iframe id="miFrame" src=""></iframe>
                     
                     <article class="padr">
-                        <!-- <div class="bord"> 
+                        <div class="bord"> 
                             <div class="icono">
                                 <img src="img/location.svg" alt="">
                             
                             </div>
                             <div class="dir">
-                                <h3>Dirección</h3><div>
+                                <h3>Dirección</h3>
+                                <div>
                                 <p>Ubicado en Zona centrica
-                                ubicación</p></div>
+                                ubicación</p>
                             </div>
-                        </div>-->
+                            </div>
+                        </div>
                         <div class="bord">
                             <div class="icono"><img src="img/men-line.svg" alt=""></div>
                             <div class="dir">
                                 <h3>Modalidad</h3>
                                 <div>
-                                    <p id="modalidad"></p> 
+                                    <p></p> 
                                 </div>
                             </div>
                         </div>
@@ -58,7 +60,7 @@
                             <div class="icono"><img src="img/plus.svg" alt=""></div>
                             <div class="dir">
                                 <h3>Mas datos</h3>
-                                <div>
+                                <div class="contenido">
                                     <p id="otros"></p>
                                 </div>
                             </div>
@@ -132,13 +134,13 @@
                         <form>
                             <div class="campo">
                                 <label for="correo">Correo Electrónico:</label>
-                                <input type="email" id="correo" name="correo" required>
+                                <input type="email" id="correo" name="correo" placeholder="ejemplo@gmail.com" required>
                             </div>
                             <div class="campo">
                                 <label for="comentarios">Comentarios:</label>
-                                <textarea id="comentarios" name="comentarios" rows="4" required></textarea>
+                                <textarea id="comentarios" name="comentarios" rows="4" required placeholder="Escribí tu comentario aqui.."></textarea>
                             </div>
-                            <div class="boton">
+                            <div class="botonEnviar">
                                 <button type="submit" onclick="cerrarPopup()">Enviar</button>
                               
                             </div>
