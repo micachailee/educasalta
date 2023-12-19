@@ -10,7 +10,7 @@ export class Institucion {
 constructor(nombre, descripcion, imagen, direccion, zona, tipo, contacto, otros, sector, modalidad, comentarios) {
     this.nombre = nombre;
     this.descripcion = descripcion;
-    this.imagen = imagen;
+    this.imagen = "img/ColegioSantoTomasdeVillanueva.jpg";
     this.direccion = direccion;
     this.zona = zona;
     this.tipo = tipo;
