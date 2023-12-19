@@ -6,11 +6,13 @@ button:focus{
 }
 .main-container {
     display: flex;
+    background: linear-gradient(90deg,#518d89,#F0F0F0);
 }
+
 
 .sidebar {
     width: 20%;
-    padding: 20px;
+    margin: 20px;
 }
 
 .sidebar h2{
@@ -72,13 +74,21 @@ button:focus{
     color: #2c7873;
 }
 .category-button-active {
+    font-size: 15px;
+    padding: 10px;
+    color: #F0F0F0;
+    border: 1px solid #2c7873;
+    border-radius: .25rem;
+    margin-bottom: 5px;
+    cursor: pointer;  
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
     background-color:  #F0F0F0;
-    border-color: #2c7873;
     color: #2c7873;
 }
 
 .main-content {
     width: 80%;
+    min-height: 100vh;
     padding: 20px;
     justify-content: center;
     align-items: center;
@@ -86,9 +96,9 @@ button:focus{
 
 .content-section {
     height: 30vh;
-    background-color: #f7f7f7;
     border-radius: 15px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color:#F0F0F0;
     overflow: hidden;
     margin-bottom: 1rem;
     display: flex;
