@@ -9,7 +9,7 @@
 <link rel="stylesheet" href="styles/default.css">
 </head>
 <body>
-    <script src="/js/navbar.js"></script>
+    <script src="js/navbar.js"></script>
 
         <main>
             <section class="sub">
@@ -17,10 +17,8 @@
                 <section class="uno">  
                     <div class="img"><img src="img/colegio2.png" alt="error"></div>
                     <article >
-                        <h1>
-                            Instituto N°8063
-                            María del Rosario de San Nicolás
-                        </h1>
+                        <h1 id="titulo"></h1>
+
                         <!-- <div class="stars"> 
                             <img src="img/star-thin.svg" alt="">
                             <img src="img/star-thin.svg" alt="">
@@ -28,16 +26,15 @@
                             <img src="img/star-thin.svg" alt="">
                             <img src="img/star-thin.svg" alt="">
                         </div>-->
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquid pariatur possimus, mollitia nostrum quis dicta suscipit nemo rerum adipisci, sapiente eveniet. Ab magni exercitationem perspiciatis voluptate cupiditate, qui quasi rem!
-                        Praesentium animi rerum explicabo error. Repudiandae pariatur officiis natus incidunt et magni aperiam, molestias, labore quisquam rem animi recusandae doloribus velit earum nesciunt perspiciatis accusantium dolor..</p>
+                        <p id="descripcion"></p>
                     </article>
                 </section>
 
                 <section class="dos" >
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3621.62439614684!2d-65.40647092484186!3d-24.808311908583953!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x941bc32b522c54c7%3A0xabb25cdf074a04af!2sEscuela%20de%20Artes%20y%20Oficios!5e0!3m2!1ses-419!2sar!4v1699645692106!5m2!1ses-419!2sar" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <iframe id="miFrame" src=""></iframe>
                     
                     <article class="padr">
-                        <div class="bord">
+                        <!-- <div class="bord"> 
                             <div class="icono">
                                 <img src="img/location.svg" alt="">
                             
@@ -47,13 +44,13 @@
                                 <p>Ubicado en Zona centrica
                                 ubicación</p></div>
                             </div>
-                        </div>
+                        </div>-->
                         <div class="bord">
                             <div class="icono"><img src="img/men-line.svg" alt=""></div>
                             <div class="dir">
                                 <h3>Modalidad</h3>
                                 <div>
-                                    <p>Ofrece una orientación mixta<!-- , proporcionando a los estudiantes oportunidades de aprendizaje y desarrollo equitativas, sin importar su género.--></p> 
+                                    <p id="modalidad"></p> 
                                 </div>
                             </div>
                         </div>
@@ -62,8 +59,7 @@
                             <div class="dir">
                                 <h3>Mas datos</h3>
                                 <div>
-                                    <p>Ofrece Natacón ingles intensivo</p>
-                                    <p>Orientacion ciencias economicas</p>
+                                    <p id="otros"></p>
                                 </div>
                             </div>
                         </div>
@@ -72,7 +68,7 @@
                             <div class="dir">
                                 <h3>Contacto</h3>
                                 <div>
-                                <p>Para mas información contactate al... o isita su pagina web</p></div>
+                                <p id="contacto"></p></div>
                             </div>
                         </div>
                     <article>
@@ -153,32 +149,9 @@
         </main>
         
     
-
+    <script src="js/informacion.js"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>
-<script>
-    function abrirMenu() {
-        document.getElementById("menu").style.display = "flex";
-    }
-
-     // Función para cerrar el menú
-    function cerrarMenu() {
-        document.getElementById("menu").style.display = "none";
-    }
-
-    // Evento de clic en el botón de alternancia
-    document.getElementById("btn").addEventListener("click", abrirMenu);
-
-    function mostrarPopup() {
-    document.getElementById('form').style.display = 'block';
-    /*document.getElementById('overlay').style.display = 'block';*/
-}
-
-function cerrarPopup() {
-    document.getElementById('form').style.display = 'none';
-    /*document.getElementById('overlay').style.display = 'none';*/
-}
-</script>
 </html>
