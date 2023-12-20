@@ -226,6 +226,9 @@ nav{
 .header_section .header_bottom .container-fluid {
   padding-right: 25px;
   padding-left: 25px;
+  position: fixed;
+  z-index: 2;
+  color: #1a1919;
 }
 
 .navbar-brand {
@@ -245,8 +248,9 @@ nav{
 
 .custom_nav-container {
   padding: 0;
-  min-height: 60px;
+  min-height: 3em;
   transition: background-color 0.5s ease;
+  position: fixed;
 }
 
 .custom_nav-container .navbar-nav {

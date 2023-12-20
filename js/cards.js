@@ -34,7 +34,7 @@ function createElements(instituciones) {
         notFindContent.classList.add('notFindContent');
 
         var notFindImg = document.createElement('img');
-        notFindImg.src = "../img/searchicon.png";
+        notFindImg.src = "img/searchicon.png";
         notFindImg.alt = 'Institucion no encontrada';
         notFindImg.classList.add('notFind-img');
 

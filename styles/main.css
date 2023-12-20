@@ -21,6 +21,7 @@ a{
 main{
     box-sizing: border-box;
     width: 100vw;
+    padding: 3em;
 }
 .uno{
     margin-top: 10px;
@@ -48,9 +49,12 @@ article p{
 
 /*Informacion*/
 
-
+#imagen{
+    max-width: 100%;
+    height: auto;
+}
 .bord{
-  
+    height: auto;
     display: flex;
     justify-content:space-around;
     align-items: center;
@@ -95,6 +99,7 @@ article p{
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 20px;
   }
 /*comentarios*/
 .subs{
@@ -105,11 +110,10 @@ article p{
 }
 .com{
     box-sizing: border-box;
-    margin-top: 80px;
     height: auto;
-    padding: 10px;
+    /* padding: 64px; */
     color: #0c0c0c;
-   
+    margin-bottom: 50px;
 }
 #comen img{
     width: 15px;
@@ -117,14 +121,15 @@ article p{
 #comen h3{
     margin: 0%;
     font-size: 1.15em;
-    color: #726f6f;
+    color: #525050;
 }
 #dos h2{
     margin: 0;
+    margin-right: auto;
     font-size: 1.5em;
     box-sizing: border-box;
     padding: 1em;
-    color: rgb(219, 211, 211);
+    color: #0c0c0c;
 }
 /*formulario*/
 .formulario {
@@ -208,7 +213,7 @@ textarea {
         box-sizing: border-box;
         display: block;
         margin-top: 0;
-        padding: 4em;
+        /* padding: 4em; */
         gap: 2em;
     }
     .uno{
@@ -216,11 +221,13 @@ textarea {
         overflow: hidden;
         margin-bottom: 50px;
     }
-   
-    h1{
-        margin-top: 20px;
-        font-size: 1.2em;
+    h1 {
+        margin-top: 10px;
+        margin-bottom: 20px;
+        font-size: 1.5em;
         height: 20%;
+        border-bottom: 1.75px solid #0c0c0c;
+        padding-top: 10px;
     }
     .uno p{
         height: auto;
@@ -315,7 +322,7 @@ textarea {
   }
   .divcom{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     gap: 5em;
   }
@@ -335,7 +342,7 @@ textarea {
  .sub{
     display: block;
     margin: 0%;
-    padding: 4em;
+    /* padding: 4em; */
  }
  .dos iframe,.img{
     width: 35%;
@@ -364,7 +371,9 @@ main{
     width: 55%;
 }
 
-
+#comentar{
+    margin-right: 20px;
+}
 #comentar:hover{
     background-color: transparent;
     color: #2c7873;
@@ -377,11 +386,11 @@ main{
 
 .dir{
     width: auto;
-    text-align: center;
+    text-align: center;                    
 }
 .dir div{
     margin-top: 10px;
-    height: 105px;
+    min-height: 144.5px;
     background-color: #2c7873;
     color: #F0F0F0;
     padding-top: 10px;

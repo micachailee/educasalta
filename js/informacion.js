@@ -4,10 +4,11 @@ const filtro = urlParams.get('filtro');
 const titulo = document.getElementById("titulo");
 const descripcion = document.getElementById('descripcion');
 const miFrame = document.getElementById("miFrame");
+const ubicacion = document.getElementById("ubicacion");
 const modalidad = document.getElementById("modalidad");
 const otros = document.getElementById("otros");
 const contacto = document.getElementById("contacto");
-
+const miimagen = document.getElementById("imagen");
 
 // Usar los datos como sea necesario
 
@@ -33,13 +34,16 @@ function cargarInstituciones(callback) {
     const institucionEncontrada = obtenerInstitucionPorNombre(tituloDePagina, instituciones);
   
     if (institucionEncontrada) {
+        miimagen.src = institucionEncontrada.imagen;
         titulo.innerHTML= tituloDePagina;
         // Asignar la descripción al elemento HTML
+        
         descripcion.textContent = institucionEncontrada.descripcion;
         // Cambiar el atributo src del frame
         miFrame.src = institucionEncontrada.direccion;
+        ubicacion.innerHTML="Ubicado en zona <br>"+institucionEncontrada.zona;
         modalidad.innerHTML= institucionEncontrada.modalidad;
-        otros.innerHTML= "Colegio "+institucionEncontrada.otros;
+        otros.innerHTML= institucionEncontrada.otros;
         contacto.innerHTML= institucionEncontrada.contacto;
     } else {
       console.log('Institución no encontrada');

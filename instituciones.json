@@ -5,8 +5,8 @@
     "direccion":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3622.1916387944502!2d-65.42251292463133!3d-24.788890577976137!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x941bc3b1ae360a57%3A0x3c684f6c15497297!2sColegio%20Salesiano%20-%20Angel%20Zerda!5e0!3m2!1ses-419!2sar!4v1702580669462!5m2!1ses-419!2sar", 
     "zona": "centro",
     "tipo": "secundario",
-    "contacto":"Tel: 0387 - 4212793",
-    "otros": "comercial",
+    "contacto":"Telefono: <br> 0387 - 4212793",
+    "otros": "Colegio comercial",
     "sector": "Privado",
     "modalidad": "varones",
     "comentarios":[{
@@ -22,8 +22,8 @@
     "direccion":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d44725.61256540197!2d-65.43174036626966!3d-24.781867615016978!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x941bc301980d341b%3A0x4e307a66ce0b31bd!2sCOLIBR%C3%8D%20Asociaci%C3%B3n%20salte%C3%B1a%20s%C3%ADndrome%20de%20Down!5e0!3m2!1ses-419!2sar!4v1702582420410!5m2!1ses-419!2sar", 
     "zona": "norte",
     "tipo": "especial",
-    "contacto":"+549 351 248-6437, https://porigualmas.org/servicios/#personasdiscapacidad",
-    "otros": "ASESORAMIENTO LEGAL GRATUITO, AGENDA DE INSTITUCIONES DE DISCAPACIDAD,TALLERES ARTÍSTICOS",
+    "contacto":[{"telefono":  "+549 351 248-6437" ,"sitioweb": "https://porigualmas.org/servicios/#personasdiscapacidad"}],
+    "otros": "Asesoramiento legal y gratuito, agenda de instituciones de discapacidad,talleres artisticos",
     "sector": "privado",
     "modalidad": "mixta",
     "comentarios":[{
@@ -39,7 +39,7 @@
     "direccion":"//www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d120048.73151936039!2d-65.49004769932026!3d-24.87089408020256!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x941bc32683368fb7%3A0x2624175a88a983dc!2sColegio%20Santo%20Tomas%20de%20Villanueva!5e0!3m2!1ses-419!2sar!4v1702816505625!5m2!1ses-419!2sar", 
     "zona": "Sur",
     "tipo": "primario",
-    "contacto":"03874952647",
+    "contacto":"Telefono: <br> 03874952647",
     "otros": "Para los niños que se quedan a almorzar se organiza el servicio además en TALLERES ARTÍSTICOS, este año se seleccionaron los talleres de ARTE, YOGA y FOLCKLORE, los mismos irán variando en función de los cursos.",
     "sector": "privado",
     "modalidad": "mixta",
@@ -51,12 +51,12 @@
 },
 {
     "nombre": "B.S.P.A. ESCUELA J.V.SOLA",
-    "descripcion": "",
-    "imagen": "",
+    "descripcion": "Es un centro educativo estatal de Argentina perteneciente al ámbito urbano, tiene como modalidad a la educación de jóvenes y adultos.",
+    "imagen": "img/ESCUELA_JVSOLA.PNG",
     "direccion":"//www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14409.317689595438!2d-65.41832744078494!3d-24.767907041347012!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x941bc3dcf3bebc47%3A0xa806826582c4031e!2sEscuela%20N.%204018%20Dr.%20Jos%C3%A9%20Vicente%20Sol%C3%A1!5e0!3m2!1ses-419!2sar!4v1702817398350!5m2!1ses-419!2sar", 
     "zona": "norte",
     "tipo": "BSPA",
-    "contacto":"03874393552",
+    "contacto":"Telefono: <br> 03874393552",
     "otros": "",
     "sector": "estatal",
     "modalidad": "",
@@ -69,7 +69,7 @@
 {
     "nombre": "ESCUELA DE EDUCACION ESPECIAL EFETA N° 7044",
     "descripcion": "Hablo con las manos, escucho con los ojos.  pero al igual que vos siento con el corazon",
-    "imagen": "",
+    "imagen": "img/EFETA_NRO7044.JPG",
     "direccion":"//www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14202.652264633707!2d-65.42223339781044!3d-24.727378547555617!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x941bc105c06fcb39%3A0xd0c167eb23b87ef0!2sEscuela%20Biling%C3%BCe%20Para%20Ni%C3%B1os%20Sordos%20e%20Hipoacusicos%20EFETA%20N%C2%B07044!5e0!3m2!1ses-419!2sar!4v1702817574240!5m2!1ses-419!2sar", 
     "zona": "norte",
     "tipo": "especial",
@@ -84,9 +84,9 @@
     }]
 },
 {
-    "nombre": "Escuela Adet",
-    "descripcion": "",
-    "imagen": "",
+    "nombre": "Colegio Walter Adet",
+    "descripcion": "Centro educativo del sector Público estatal de ambito Urbano, con estado Activo.",
+    "imagen": "img/WalterAdet.jpg",
     "direccion":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d157287.61789452253!2d-65.52345252043236!3d-24.843868676861767!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x941bdd54a823ca1f%3A0x93fd66e6be2eed63!2sEscuela%20Adet!5e0!3m2!1ses-419!2sar!4v1702819423474!5m2!1ses-419!2sar", 
     "zona": "sur",
     "tipo": "secundario",
@@ -103,10 +103,10 @@
 {
     "nombre": "Colegio N°5167-Dr. Miguel Ragone",
     "descripcion": "",
-    "imagen": "",
+    "imagen": "img/DrMiguelRagone.jpeg",
     "direccion":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d91838.67786647525!2d-65.43065566321275!3d-24.823551979769913!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x941bc47b70b4515f%3A0x8023a4f73d7a10c6!2sColegio%20N%C2%B05167-Dr.%20Miguel%20Ragone%20Salta!5e0!3m2!1ses-419!2sar!4v1702819552899!5m2!1ses-419!2sar", 
     "zona": "este",
-    "tipo": "secudario",
+    "tipo": "secundario",
     "contacto":"03874282802",
     "otros": "",
     "sector": "estatal",
@@ -120,7 +120,7 @@
 {
     "nombre": "Colegio Secundario Dr Ernesto Miguel Araoz",
     "descripcion": "",
-    "imagen": "",
+    "imagen": "img/ColegioAraoz.jpg",
     "direccion":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d162418.039163474!2d-65.56651797565782!3d-24.909796201877807!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x941bc3b914ecffb9%3A0x2abbb19fcd7d26c6!2sColegio%20Secundario%20Dr%20Ernesto%20Miguel%20Araoz!5e0!3m2!1ses-419!2sar!4v1702819684950!5m2!1ses-419!2sar", 
     "zona": "sur",
     "tipo": "secundario",
@@ -137,7 +137,7 @@
 {
     "nombre": "INSTITUTO DE EDUCACION MEDIA DR.ARTURO OÑATIVIA UNSA N°16",
     "descripcion": "El Instituto de Educación Media Dr. Arturo Oñativia dependiente de la Universidad Nacional de Salta, es un Colegio de Educación Secundaria, o también llamado Pre-Universitario, o de Educación Media, destinado a estudiantes menores de edad (entre 12 y 17 años).",
-    "imagen": "",
+    "imagen": "img/IEM.jpg",
     "direccion":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3624.0273176723417!2d-65.40763922492262!3d-24.725942405407075!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x941bc12c877d172d%3A0xae024981e46dda22!2sInstituto%20de%20Educaci%C3%B3n%20Media%20%22Dr.%20Arturo%20O%C3%B1ativia%22!5e0!3m2!1ses-419!2sar!4v1702898785678!5m2!1ses-419!2sar", 
     "zona": "norte",
     "tipo": "secundario",
@@ -154,7 +154,7 @@
 {
     "nombre": "ESCUELA DE EDUCACION TECNICA REPUBLICA DE LA INDIA Nª 3100 EX N°5100-7100",
     "descripcion": "",
-    "imagen": "",
+    "imagen": "img/EET_INDIA.jpeg",
     "direccion":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d44019.004511443556!2d-65.42805494138626!3d-24.795811299740855!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x941bc3c972288845%3A0x95dc3dc093ba2659!2sEscuela%20de%20Educaci%C3%B3n%20T%C3%A9cnica%20y%20C.F.P.%20No.%203.100%20Rep%C3%BAblica%20de%20la%20India!5e0!3m2!1ses-419!2sar!4v1702899727463!5m2!1ses-419!2sar", 
     "zona": "oeste",
     "tipo": "secundario",
@@ -169,12 +169,12 @@
     }]
 },
 {
-    "nombre": "Escuela N 4003 Doctor Joaquin Castellanos",
+    "nombre": "Escuela N°4003 Doctor Joaquin Castellanos",
     "descripcion": "",
-    "imagen": "",
+    "imagen": "img/JoaquinCastellanosPrim.png",
     "direccion":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d28977.99315966977!2d-65.42470248844711!3d-24.786920878308948!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x941bc370db3bcfeb%3A0xb4a161060c2810a3!2sEscuela%20N%204003%20Doctor%20Joaquin%20Castellanos!5e0!3m2!1ses-419!2sar!4v1702900559798!5m2!1ses-419!2sar", 
     "zona": "este",
-    "tipo": "primario jardin",
+    "tipo": "primario",
     "contacto":"03874280762",
     "otros": "",
     "sector": "estatal",
@@ -188,7 +188,7 @@
 {
     "nombre": "INSTITUTO MADRE MARIA SARA LONA",
     "descripcion": "",
-    "imagen": "",
+    "imagen": "img/Inst_MMSaralon.webp",
     "direccion":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3621.738682336287!2d-65.41954892491958!3d-24.80440010843281!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x941bc305ad39888f%3A0xef0c40ce0e9681bc!2sInstitutos%20La%20Inmaculada%20Madre%20Mar%C3%ADa%20Sara%20Lona!5e0!3m2!1ses-419!2sar!4v1702901093143!5m2!1ses-419!2sar", 
     "zona": "sur",
     "tipo": "secundario",
@@ -205,7 +205,7 @@
 {
     "nombre": "Escuela Parroquial Martín Fierro Ex Nº 27 Bis",
     "descripcion": "Escuela Parroquial Martín Fierro Ex Nº 27 Bis es una institución educativa de gestión privada, mixta, de jornada simple y con orientación en valores de la religión Católica; disponiendo de infraestructura religiosa propia. Escuela Parroquial Martín Fierro Ex Nº 27 Bis ofrece servicios educativos en la modalidad de educación común en 2 niveles: jardin de infantes y nivel primario.",
-    "imagen": "",
+    "imagen": "img/MartinFierro.jpeg",
     "direccion":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8408.062750521563!2d-65.43680133440341!3d-24.77706062091117!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x941bc232d0e88c3b%3A0xeb13ea7235b203b7!2sEscuela%20No.%20997%20Parroquial%20Mart%C3%ADn%20Fierro!5e0!3m2!1ses-419!2sar!4v1702903113897!5m2!1ses-419!2sar", 
     "zona": "oeste",
     "tipo": "primario",
@@ -222,7 +222,7 @@
 {
     "nombre": "Escuela Parroquial Martín Fierro Ex Nº 27 Bis",
     "descripcion": "Escuela Parroquial Martín Fierro Ex Nº 27 Bis es una institución educativa de gestión privada, mixta, de jornada simple y con orientación en valores de la religión Católica; disponiendo de infraestructura religiosa propia. Escuela Parroquial Martín Fierro Ex Nº 27 Bis ofrece servicios educativos en la modalidad de educación común en 2 niveles: jardin de infantes y nivel primario.",
-    "imagen": "",
+    "imagen": "img/MartinFierro.jpeg",
     "direccion":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8408.062750521563!2d-65.43680133440341!3d-24.77706062091117!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x941bc232d0e88c3b%3A0xeb13ea7235b203b7!2sEscuela%20No.%20997%20Parroquial%20Mart%C3%ADn%20Fierro!5e0!3m2!1ses-419!2sar!4v1702903113897!5m2!1ses-419!2sar", 
     "zona": "oeste",
     "tipo": "jardin",
@@ -239,7 +239,7 @@
 {
     "nombre": "ESCUELA PARROQUIAL NTRA.SRA.DE LA CANDELARIA EX N° 26 BIS",
     "descripcion": "Escuela Parroquial Nuestra Señora de La Candelaria Ex Nº 26 Bis es una institución educativa de gestión privada, mixta, de jornada simple y con orientación en valores de la religión Católica; disponiendo de infraestructura religiosa propia. Escuela Parroquial Nuestra Señora de La Candelaria Ex Nº 26 Bis ofrece servicios educativos en la modalidad de educación común en 2 niveles: jardin de infantes y nivel primario.",
-    "imagen": "",
+    "imagen": "img/SRA.DELACANDELARIA.png",
     "direccion":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d50512.312825177156!2d-65.42002374854138!3d-24.814419613685317!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x941bc3882df81c23%3A0xf02322f079b3ec4a!2sEscuela%20Nuestra%20Se%C3%B1ora%20De%20La%20Candelaria!5e0!3m2!1ses-419!2sar!4v1702903663938!5m2!1ses-419!2sar", 
     "zona": "sur",
     "tipo":"jardin",
@@ -256,7 +256,7 @@
 {
     "nombre": "ESCUELA PARROQUIAL NTRA.SRA.DE LA CANDELARIA EX N° 26 BIS",
     "descripcion": "Escuela Parroquial Nuestra Señora de La Candelaria Ex Nº 26 Bis es una institución educativa de gestión privada, mixta, de jornada simple y con orientación en valores de la religión Católica; disponiendo de infraestructura religiosa propia. Escuela Parroquial Nuestra Señora de La Candelaria Ex Nº 26 Bis ofrece servicios educativos en la modalidad de educación común en 2 niveles: jardin de infantes y nivel primario.",
-    "imagen": "",
+    "imagen": "img/SRA.DELACANDELARIA.png",
     "direccion":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d50512.312825177156!2d-65.42002374854138!3d-24.814419613685317!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x941bc3882df81c23%3A0xf02322f079b3ec4a!2sEscuela%20Nuestra%20Se%C3%B1ora%20De%20La%20Candelaria!5e0!3m2!1ses-419!2sar!4v1702903663938!5m2!1ses-419!2sar", 
     "zona": "sur",
     "tipo":"primario",
@@ -264,6 +264,108 @@
     "otros": "",
     "sector": "privado",
     "modalidad": "mixta",
+    "comentarios":[{
+        "usuario": "",
+        "star": "", 
+        "descripcion": "" 
+    }]
+},
+{
+    "nombre": "Universidad Nacional de Salta",
+    "descripcion": "La Universidad Nacional de Salta es una institución de derecho público, autónoma y autárquica, que tiene como fin promover, difundir y preservar la cultura de la comunidad en la cual está inserta, para lo cual contribuye con estudios humanísticos, investigación científica, tecnológica y la creación artística. Asimismo, difunde sus actividades a través de diferentes medios de comunicación.",
+    "imagen": "img/UNSA.pmg",
+    "direccion":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14496.323039063784!2d-65.4163536533157!3d-24.72410754658721!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x941bc113ff725893%3A0x2981a8b51a8d1fbd!2sUniversidad%20Nacional%20de%20Salta!5e0!3m2!1ses!2sar!4v1703107582626!5m2!1ses!2sar", 
+    "zona": "norte",
+    "tipo": "universitario",
+    "contacto":[{"telefono":"4255510", "sitioweb":"https://www.unsa.edu.ar/"}],
+    "otros": "Procura la formación integral y armónica de los integrantes de la comunidad universitaria: docentes, estudiantes, graduados y personal de apoyo universitario, e infunde en ellos el espíritu de rectitud moral y responsabilidad ética y cívica. Particularmente forma investigadores, docentes y profesionales idóneos en diversas áreas del conocimiento y mantiene con sus graduados un vínculo permanente a través de un proceso de formación continua dirigido a su actualización y perfeccionamiento. Dependiente del Estado Nacional, colabora en la identificación y solución de los problemas nacionales y regionales según normas específicas que regulan sus funciones; expone fundadamente sus conclusiones, presta asesoramiento técnico y participa en actividades comunes con instituciones estatales y privadas,  mediante convenios de cooperación.",
+    "sector": "estatal",
+    "facultades": "Ciencias Exactas, Ciencias Económicas Jurídicas y Sociales, Ciencias Naturales,Ciencias de la salud, Ingeniería, Humanidades",
+    "comentarios":[{
+        "usuario": "",
+        "star": "", 
+        "descripcion":""
+}]
+},
+{
+    "nombre": "Universidad Católica de Salta",
+    "descripcion": "Ser una institución educativa de nivel superior reconocida a nivel regional, nacional e internacional por la calidad manifestada en el desarrollo de sus funciones sustantivas y por la puesta en práctica de los valores cristianos que la sostienen desde su creación.",
+    "imagen": "img/UCASAL.jpeg",
+    "direccion":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14496.323039063784!2d-65.4163536533157!3d-24.72410754658721!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x941bc14f9aaaaaab%3A0x69dac60239564277!2sUniversidad%20Cat%C3%B3lica%20de%20Salta!5e0!3m2!1ses!2sar!4v1703108120385!5m2!1ses!2sar", 
+    "zona": "norte",
+    "tipo": "universitario",
+    "contacto":[{"telefono":"0810-555-8227", "sitioweb":"ucasal.edu.ar"}],
+    "otros": "La Universidad Católica de Salta es una institución católica que, a la luz de la fe y del servicio al hombre, se dedica a la formación superior en todos los niveles, a la investigación científica, al desarrollo tecnológico y a la creación artística y que mediante el uso de tecnología innovadora cuenta con los medios para formar personas tanto a nivel local como nacional e internacional.",
+    "sector": "privado",
+    "facultades": "Arquitectura y Urbanismo, Artes y Ciencias, Economia y Administración, Ciencias Jurídicas, Ingeniería, Ciencias Agrarias y Veterinarias, Escuela de Negocios, Escuela Universitaria de Educación Física, Escuela Universitaria de Música, Educación, Escuela Universitaria de Trabajo Social, Escuela Universitaria de Turismo, Escuela Universitaria de Teología y Filosofía, Ciencias de la Salud",
+    "comentarios":[{
+        "usuario": "",
+        "star": "", 
+        "descripcion": ""
+}]
+},
+{
+    "nombre": "Instituto Superior del Milagro Nº 8207",
+    "descripcion": "El Instituto Superior Del Milagro Nº 6207 es una institución de Educación Superior, que responde a la modalidad Pública de Gestión Privada, dependiendo de la Dirección General de Enseñanza Privada de la Provincia de Salta Capital.La Educación Superior tiene por finalidad proporcionar formación científica, profesional, humanística y técnica en el más alto nivel, contribuir a la preservación de la cultura nacional, promover la generación y desarrollo del conocimiento en todas sus formas.",
+    "imagen": "img/IntSupMilagro.jpg",
+    "direccion":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7244.405380107595!2d-65.42448105721863!3d-24.78851206190497!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x941bc3a5250854c3%3A0x5e011d79c98af233!2sInstituto%20Superior%20del%20Milagro%20N%C2%B0%208207!5e0!3m2!1ses!2sar!4v1703108533150!5m2!1ses!2sar", 
+    "zona": "centro",
+    "tipo": "terciario",
+    "contacto":[{"telefono":"(0387) 4311519 – 4312643", "sitioweb":"https://institutodelmilagro.com/"}],
+    "otros": "",
+    "sector": "privado",
+    "carreras": "Psicopedagogía, Analisis de Sistemas, Profesorado de Educacion Especial, Profesorado de Ingles, Profesorado de Educación Primaria, Profesorado de Educación Inicial",
+    "comentarios":[{
+        "usuario": "",
+        "star": "", 
+        "descripcion":""
+    }]
+},
+{
+    "nombre": "Instituto Jean Piaget",
+    "descripcion": " En el Instituto Jean Piaget se promueve una educación integral donde las dos mentes: la que piensa y la que siente no se oponen, sino que se integran en el ser humano que se quiere formar (Goleman, 1995). Los principales principios que asume la Institución son los siguientes: una Educación innovadora, una Educación para el pensamiento crítico, una educación para desarrollar liderazgo, una educación en valores que enfatice perseverancia, una educación democrática.",
+    "imagen": "img/InstJeanPiaget.png",
+    "direccion":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3621.933326448594!2d-65.41423472463106!3d-24.797736477970318!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x941bc3a76aa603c7%3A0x733d11ba0c340298!2sInstituto%20Jean%20Piaget!5e0!3m2!1ses!2sar!4v1703109344753!5m2!1ses!2sar", 
+    "zona": "centro",
+    "tipo": "terciario",
+    "contacto":[{"telefono":"3874400382", "sitioweb":"https://piagetsalta.com.ar/"}],
+    "otros": "",
+    "sector": "privado",
+    "carreras": " Tec. Sup. en Turismo con Orientación en Hotelería, Tec. Sup. en Higiene y Seguridad en el Trabajo, Tec. Sup. en Gestión de Recursos Humanos, Profesorado en Educacion Primaria, Profesorado en Psicología, Psicopedagogía, Tec. Sup. en Psicopedagogía, Tec. Sup. en Administración de Empresa",
+    "comentarios":[{
+        "usuario": "",
+        "star": "", 
+        "descripcion":""
+    }]
+},
+{
+    "nombre": "Instituto Superior de la Motricidad y el Deporte",
+    "descripcion": "ISMODE es un instituto de formación superior no universitario, que tiene como finalidad la formación, capacitación e investigación en el área de la educación, educación física, el deporte, la recreación, el turismo y las ciencias aplicadas a estos.",
+    "imagen": "img/ISMODE.png",
+    "direccion":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7243.920068907993!2d-65.4135315064209!3d-24.796822000000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x941bc39f7eef29cf%3A0xb1a20b25dd6f345b!2sISMODE!5e0!3m2!1ses!2sar!4v1703110095609!5m2!1ses!2sar", 
+    "zona": "centro",
+    "tipo": "terciario",
+    "contacto":[{"telefono":"3874314173", "sitioweb":"https://www.ismode.com.ar/"}],
+    "otros": "",
+    "sector": "privado",
+    "carreras": "Profesorado en Educación Física",
+    "comentarios":[{
+        "usuario": "",
+        "star": "", 
+        "descripcion": "" 
+    }]
+},
+{
+    "nombre": "Instituto Franklin Nº 8196",
+    "descripcion": "INSTITUTO FRANKLIN se especializa en la enseñanza del inglés para todas las edades desde 1963. En 2004 se incorpora como Instituto de Formación Docente NRO 8195 según R.M. N° 5081/05 incorpora Franklin a DGEP, dependiente de la Dirección General de Educación Privada, Ministerio de Educación, Cultura Ciencia y Tecnología de la Provincia de Salta para el dictado de la Carrera Profesorado de Inglés. ",
+    "imagen": "img/Franklin.png",
+    "direccion":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3622.1171987727685!2d-65.4086437246313!3d-24.791440077974407!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x941bc3a28b59e3bd%3A0x57455f165c30687!2sInstituto%20Franklin!5e0!3m2!1ses!2sar!4v1703110138033!5m2!1ses!2sar", 
+    "zona": "centro",
+    "tipo": "idiomas",
+    "contacto":[{"telefono":"+54 387 4100499", "sitioweb":"https://institutofranklin.com.ar/"}],
+    "otros": "",
+    "sector": "privado",
+    "carreras": "Profesorado de Ingles",
     "comentarios":[{
         "usuario": "",
         "star": "", 
@@ -294,7 +396,7 @@
     "direccion":"", 
     "zona": "este",
     "tipo": "",
-    "contacto":"",
+    "contacto":[{"telefono":"", "sitioweb":""}],
     "otros": "",
     "sector": "",
     "modalidad": "",
