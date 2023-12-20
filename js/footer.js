@@ -83,17 +83,17 @@ document.write(`  <section class="info_section footer">
           </h5>
           <ul class="info_menu">
             <li>
-              <a href="#index">
+              <a href="index.html">
                 Inicio
               </a>
             </li>
             <li>
-              <a href="#Instituciones">
+              <a href="index.html#Instituciones">
                 Instituciones
               </a>
             </li>
             <li>
-              <a href="#Sobrenosotros">
+              <a href="index.html#SobreNosotros">
                 Sobre Nosotros
               </a>
             </li>

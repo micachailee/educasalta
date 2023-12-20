@@ -15,7 +15,7 @@ document.write(`
                 <a class="nav-link" href="index.html">INICIO <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="institutions.html">INSTITUCIONES</a>
+                <a class="nav-link" href="index.html#Instituciones">INSTITUCIONES</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="index.html#SobreNosotros">SOBRE NOSOTROS</a>
