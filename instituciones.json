@@ -273,14 +273,14 @@
 {
     "nombre": "Universidad Nacional de Salta",
     "descripcion": "La Universidad Nacional de Salta es una institución de derecho público, autónoma y autárquica, que tiene como fin promover, difundir y preservar la cultura de la comunidad en la cual está inserta, para lo cual contribuye con estudios humanísticos, investigación científica, tecnológica y la creación artística. Asimismo, difunde sus actividades a través de diferentes medios de comunicación.",
-    "imagen": "img/UNSA.pmg",
+    "imagen": "img/UNSA.jpeg",
     "direccion":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14496.323039063784!2d-65.4163536533157!3d-24.72410754658721!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x941bc113ff725893%3A0x2981a8b51a8d1fbd!2sUniversidad%20Nacional%20de%20Salta!5e0!3m2!1ses!2sar!4v1703107582626!5m2!1ses!2sar", 
     "zona": "norte",
     "tipo": "universitario",
     "contacto":[{"telefono":"4255510", "sitioweb":"https://www.unsa.edu.ar/"}],
     "otros": "Procura la formación integral y armónica de los integrantes de la comunidad universitaria: docentes, estudiantes, graduados y personal de apoyo universitario, e infunde en ellos el espíritu de rectitud moral y responsabilidad ética y cívica. Particularmente forma investigadores, docentes y profesionales idóneos en diversas áreas del conocimiento y mantiene con sus graduados un vínculo permanente a través de un proceso de formación continua dirigido a su actualización y perfeccionamiento. Dependiente del Estado Nacional, colabora en la identificación y solución de los problemas nacionales y regionales según normas específicas que regulan sus funciones; expone fundadamente sus conclusiones, presta asesoramiento técnico y participa en actividades comunes con instituciones estatales y privadas,  mediante convenios de cooperación.",
     "sector": "estatal",
-    "facultades": "Ciencias Exactas, Ciencias Económicas Jurídicas y Sociales, Ciencias Naturales,Ciencias de la salud, Ingeniería, Humanidades",
+    "modalidad": "Ciencias Exactas, Ciencias Económicas Jurídicas y Sociales, Ciencias Naturales,Ciencias de la salud, Ingeniería, Humanidades",
     "comentarios":[{
         "usuario": "",
         "star": "", 
@@ -297,7 +297,7 @@
     "contacto":[{"telefono":"0810-555-8227", "sitioweb":"ucasal.edu.ar"}],
     "otros": "La Universidad Católica de Salta es una institución católica que, a la luz de la fe y del servicio al hombre, se dedica a la formación superior en todos los niveles, a la investigación científica, al desarrollo tecnológico y a la creación artística y que mediante el uso de tecnología innovadora cuenta con los medios para formar personas tanto a nivel local como nacional e internacional.",
     "sector": "privado",
-    "facultades": "Arquitectura y Urbanismo, Artes y Ciencias, Economia y Administración, Ciencias Jurídicas, Ingeniería, Ciencias Agrarias y Veterinarias, Escuela de Negocios, Escuela Universitaria de Educación Física, Escuela Universitaria de Música, Educación, Escuela Universitaria de Trabajo Social, Escuela Universitaria de Turismo, Escuela Universitaria de Teología y Filosofía, Ciencias de la Salud",
+    "modalidad": "Arquitectura y Urbanismo, Artes y Ciencias, Economia y Administración, Ciencias Jurídicas, Ingeniería, Ciencias Agrarias y Veterinarias, Escuela de Negocios, Escuela Universitaria de Educación Física, Escuela Universitaria de Música, Educación, Escuela Universitaria de Trabajo Social, Escuela Universitaria de Turismo, Escuela Universitaria de Teología y Filosofía, Ciencias de la Salud",
     "comentarios":[{
         "usuario": "",
         "star": "", 
@@ -314,7 +314,7 @@
     "contacto":[{"telefono":"(0387) 4311519 – 4312643", "sitioweb":"https://institutodelmilagro.com/"}],
     "otros": "",
     "sector": "privado",
-    "carreras": "Psicopedagogía, Analisis de Sistemas, Profesorado de Educacion Especial, Profesorado de Ingles, Profesorado de Educación Primaria, Profesorado de Educación Inicial",
+    "modalidad": "Psicopedagogía, Analisis de Sistemas, Profesorado de Educacion Especial, Profesorado de Ingles, Profesorado de Educación Primaria, Profesorado de Educación Inicial",
     "comentarios":[{
         "usuario": "",
         "star": "", 
@@ -331,7 +331,7 @@
     "contacto":[{"telefono":"3874400382", "sitioweb":"https://piagetsalta.com.ar/"}],
     "otros": "",
     "sector": "privado",
-    "carreras": " Tec. Sup. en Turismo con Orientación en Hotelería, Tec. Sup. en Higiene y Seguridad en el Trabajo, Tec. Sup. en Gestión de Recursos Humanos, Profesorado en Educacion Primaria, Profesorado en Psicología, Psicopedagogía, Tec. Sup. en Psicopedagogía, Tec. Sup. en Administración de Empresa",
+    "modalidad": " Tec. Sup. en Turismo con Orientación en Hotelería, Tec. Sup. en Higiene y Seguridad en el Trabajo, Tec. Sup. en Gestión de Recursos Humanos, Profesorado en Educacion Primaria, Profesorado en Psicología, Psicopedagogía, Tec. Sup. en Psicopedagogía, Tec. Sup. en Administración de Empresa",
     "comentarios":[{
         "usuario": "",
         "star": "", 
@@ -348,7 +348,7 @@
     "contacto":[{"telefono":"3874314173", "sitioweb":"https://www.ismode.com.ar/"}],
     "otros": "",
     "sector": "privado",
-    "carreras": "Profesorado en Educación Física",
+    "modalidad": "Profesorado en Educación Física",
     "comentarios":[{
         "usuario": "",
         "star": "", 
@@ -365,7 +365,7 @@
     "contacto":[{"telefono":"+54 387 4100499", "sitioweb":"https://institutofranklin.com.ar/"}],
     "otros": "",
     "sector": "privado",
-    "carreras": "Profesorado de Ingles",
+    "modalidad": "Profesorado de Ingles",
     "comentarios":[{
         "usuario": "",
         "star": "", 
