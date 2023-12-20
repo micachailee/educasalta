@@ -25,10 +25,10 @@ document.write(`
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="#">
-                <i class="fa fa-user" aria-hidden="true"></i>
-                <span>
-                    ACCEDER
-                </span>
+                    <img id="user" src="img/user.svg" alt="user">
+                    <span>
+                        ACCEDER
+                    </span>
                 </a>
             </li>
             </ul>
