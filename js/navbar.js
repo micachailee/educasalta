@@ -12,13 +12,13 @@ document.write(`
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav  ">
             <li class="nav-item active">
-                <a class="nav-link" href="#index">INICIO <span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="index.html">INICIO <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#Instituciones">INSTITUCIONES</a>
+                <a class="nav-link" href="institutions.html">INSTITUCIONES</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#SobreNosotros">SOBRE NOSOTROS</a>
+                <a class="nav-link" href="index.html#SobreNosotros">SOBRE NOSOTROS</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="contact.html">CONTACTO</a>
@@ -31,11 +31,6 @@ document.write(`
                 </span>
                 </a>
             </li>
-            <form class="form-inline justify-content-center">
-                <button class="btn  my-2 my-sm-0 nav_search-btn" type="submit">
-                <i class="fa fa-search" aria-hidden="true"></i>
-                </button>
-            </form>
             </ul>
         </div>
         </nav>
