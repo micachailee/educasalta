@@ -9,16 +9,16 @@ document.write(`  <section class="info_section footer">
           <div class="">
             <div class="social_box">
               <a href="">
-                <i class="fa fa-facebook" aria-hidden="true"></i>
+                <img src="img/facebook.svg" alt="twitter">
               </a>
               <a href="">
-                <i class="fa fa-twitter" aria-hidden="true"></i>
+                <img src="img/twitter.svg" alt="twitter">
               </a>
               <a href="">
-                <i class="fa fa-linkedin" aria-hidden="true"></i>
+                <img src="img/linkedin-fill.svg" alt="twitter">
               </a>
               <a href="">
-                <i class="fa fa-instagram" aria-hidden="true"></i>
+                <img src="img/instagram.svg" alt="twitter">
               </a>
             </div>
           </div>
