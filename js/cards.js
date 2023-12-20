@@ -29,9 +29,27 @@ function createElements(instituciones) {
     });
     const institucionesActivas = instituciones.filter(institucion => institucion.active);
     cardsArticle.innerHTML = '';
-    institucionesActivas.forEach(institucion => {
-        createNewCard(institucion);
-    });
+    if(institucionesActivas.length === 0){
+        var notFindContent = document.createElement('section');
+        notFindContent.classList.add('notFindContent');
+
+        var notFindImg = document.createElement('img');
+        notFindImg.src = "../img/searchicon.png";
+        notFindImg.alt = 'Institucion no encontrada';
+        notFindImg.classList.add('notFind-img');
+
+        var notFind = document.createElement('h3');
+        notFind.innerText = "No se encontraron resultados";
+
+        notFindContent.appendChild(notFindImg);
+        notFindContent.appendChild(notFind)
+
+        cardsArticle.appendChild(notFindContent)
+    }else{
+        institucionesActivas.forEach(institucion => {
+            createNewCard(institucion);
+        });
+    }
 }
 
 

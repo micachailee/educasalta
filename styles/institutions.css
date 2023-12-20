@@ -100,6 +100,7 @@ button:focus{
     justify-content: space-evenly;
     padding: 2rem .55rem;
     gap: 2rem;
+    min-height: 100vh;
 }
 
 
@@ -165,9 +166,15 @@ button:focus{
         padding: 6px 10px;
     }
 } */
-
-
-
+.notFindContent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.notFind-img{
+    width: 20%;
+}
 
 @media (max-width:767px) {
 
