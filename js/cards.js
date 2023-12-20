@@ -188,3 +188,11 @@ document.getElementById('searchInput').addEventListener('input', function () {
     filtros.nombre = searchInput.value.trim().toLowerCase();
     createElements(instituciones);
 });
+
+window.addEventListener('DOMContentLoaded', function () {
+    const urlParams = new URLSearchParams(window.location.search);
+    const tipo = urlParams.get('tipo');
+
+    filtros.tipo = tipo !== null ? tipo : 'notFound';
+    createElements(instituciones);
+});
