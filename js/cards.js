@@ -41,8 +41,6 @@ function createNewCard(institucion) {
     var cardSection = document.createElement('section');
     cardSection.classList.add('content-section');
 
-    
-
     var imgInst = document.createElement('img');
     imgInst.src = institucion.imagen;
     imgInst.alt = 'Imagen de la institución';

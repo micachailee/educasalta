@@ -17,8 +17,8 @@ button:focus{
 .sidebar {
     width: 20%;
     margin: 20px;
-    position: fixed;
     left: 75%;
+    position: fixed;
 }
 
 .sidebar h2{
@@ -99,14 +99,6 @@ button:focus{
     justify-content: space-evenly;
     padding: 2rem .55rem;
     gap: 2rem;
-    /* display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr; /* Divide en dos columnas iguales */
-    /* grid-gap: 10px; Espacio entre las columnas */ 
-    /* width: 80%;
-    min-height: 100vh;
-    
-    justify-content: center;
-    align-items: center; */
 }
 
 
