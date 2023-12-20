@@ -41,6 +41,7 @@ button:focus{
 
 .search-button {
     width: 20%;
+    height: 2.6rem;
     background-color: #fff; 
     color: white;
     border: 1px solid #2c7873;
