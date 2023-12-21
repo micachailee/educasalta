@@ -9,7 +9,8 @@ const modalidad = document.getElementById("modalidad");
 const otros = document.getElementById("otros");
 const contacto = document.getElementById("contacto");
 const miimagen = document.getElementById("imagen");
-
+const datos = document.getElementById("datos");
+const sitio = document.getElementById("sitio");
 // Usar los datos como sea necesario
 
 function cargarInstituciones(callback) {
@@ -34,7 +35,7 @@ function cargarInstituciones(callback) {
     const institucionEncontrada = obtenerInstitucionPorNombre(tituloDePagina, instituciones);
   
     if (institucionEncontrada) {
-        miimagen.src = institucionEncontrada.imagen;
+      miimagen.src = institucionEncontrada.imagen;
         titulo.innerHTML= tituloDePagina;
         // Asignar la descripción al elemento HTML
         
@@ -42,9 +43,35 @@ function cargarInstituciones(callback) {
         // Cambiar el atributo src del frame
         miFrame.src = institucionEncontrada.direccion;
         ubicacion.innerHTML="Ubicado en zona <br>"+institucionEncontrada.zona;
-        modalidad.innerHTML= institucionEncontrada.modalidad;
-        otros.innerHTML= institucionEncontrada.otros;
-        contacto.innerHTML= institucionEncontrada.contacto;
+        contacto.innerHTML="Telefono: <br>"+institucionEncontrada.contacto;
+        if (institucionEncontrada.sitioweb!=""){
+          sitio.innerHTML="Sitio Web.";
+          sitio.href=institucionEncontrada.sitioweb;
+        }
+        
+        switch(institucionEncontrada.tipo){
+          case "universitario":
+            datos.innerHTML= "Facultades";
+            otros.innerHTML= institucionEncontrada.facultades;
+            mod.innerHTML= "Sector";
+            modalidad.innerHTML= "Es de ambito "+institucionEncontrada.sector;
+            break;
+          case "terciario":
+            datos.innerHTML= "Carreras";
+            otros.innerHTML= institucionEncontrada.carreras;
+            mod.innerHTML= "Sector";
+            modalidad.innerHTML= "Es de ambito "+institucionEncontrada.sector;
+            break;
+          case "idiomas":
+            datos.innerHTML= "Idiomas";
+            otros.innerHTML= institucionEncontrada.idiomas;
+            mod.innerHTML= "Sector";
+            modalidad.innerHTML= "Es de ambito "+institucionEncontrada.sector;
+            break;
+          default:
+            modalidad.innerHTML= institucionEncontrada.modalidad;
+            otros.innerHTML= institucionEncontrada.otros;
+        }
     } else {
       console.log('Institución no encontrada');
     }
@@ -63,3 +90,4 @@ function cerrarPopup() {
 document.getElementById('form').style.display = 'none';
 /*document.getElementById('overlay').style.display = 'none';*/
 }
+

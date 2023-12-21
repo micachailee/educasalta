@@ -27,12 +27,20 @@ main{
     margin-top: 10px;
 }
 
+.padr{
+    display: flex;
+    flex-wrap: wrap;
+}
 .img{
     width: 95vw;
     height: 40vh;
     overflow: hidden;
     display: block;
     border-radius: .3em;
+    
+}
+#imagen{
+    object-fit: contain;
 }
 h1{
     margin: 0%;
@@ -51,7 +59,8 @@ article p{
 
 #imagen{
     max-width: 100%;
-    height: auto;
+    height: 100%;
+      object-fit: cover;
 }
 .bord{
     height: auto;
@@ -68,10 +77,14 @@ article p{
 .dir h3{
     font-size: 18px;
 }
-.contenido{
-    overflow: auto;
-    border: 1px solid #ccc;
-}
+.bord div,
+    .bord article{
+        position: relative;
+        top: -50%;
+    }
+ .contenido{
+    text-align: center;
+} 
 .icono{
     /*circulo*/
     border-radius: 50%; 
@@ -228,12 +241,14 @@ textarea {
         height: 20%;
         border-bottom: 1.75px solid #0c0c0c;
         padding-top: 10px;
+        padding-bottom: 2em;
     }
     .uno p{
         height: auto;
     }
 
     /*Informacion*/
+
     .padr{
         display: flex;
         flex-wrap: wrap;
@@ -264,8 +279,47 @@ textarea {
     }
 
 }
+.padr{
+    justify-content: space-between;
+   }
+    .bord{
+        /*width: 10vw;*/
+        box-sizing: border-box;
+        border: 1px solid #2c7873;
+        margin-top: 50px;
+        padding: 15px;
 
-
+        width: 150px;
+        height: 250px;
+        border-radius: .25em;
+        padding: 0;
+        display: grid;
+        grid-template-rows: repeat(2, 1fr);
+        grid-template-columns: 1fr;
+        gap: 70px;
+    }
+    .dir{
+        width: auto;
+        text-align: center;
+    }
+    .dir div{
+        margin-top: 10px;
+        height: 144.5px;
+        /* max-height: 144.5px; */
+        overflow-y: auto;
+        background-color: #2c7873;
+        color: #F0F0F0;
+        padding-top: 10px;
+        text-align: left;
+    }
+    .icono{ 
+        width: 90px;
+        height: 90px;
+        position: relative;
+        top: -35%;     /* Alinea en el centro verticalmente */
+        left: 50%;    /* Alinea en el centro horizontalmente */
+        transform: translate(-50%);
+    }
 @media screen and (min-width: 992px){
     /*Informacion*/
     
@@ -354,7 +408,7 @@ textarea {
  }
  .img img{
     /*height: 300px;*/
-    width: auto; /* La imagen se ajusta al ancho del contenedor, pero no excede su tamaño original */
+    /* width: auto; La imagen se ajusta al ancho del contenedor, pero no excede su tamaño original */
     height: auto; /* Mantiene la proporción original de la imagen */
     /*display: block; *//* Elimina el espacio adicional debajo de la imagen */
     overflow: hidden;
@@ -390,9 +444,22 @@ main{
 }
 .dir div{
     margin-top: 10px;
-    min-height: 144.5px;
+    height: 144.5px;
+    /* max-height: 144.5px; */
+    overflow-y: auto;
     background-color: #2c7873;
     color: #F0F0F0;
     padding-top: 10px;
+    text-align: left;
 }
+}
+#sitio{
+    margin-left: 0.2em;
+    color: white;
+    border-bottom: 1px solid white;
+    padding: 0;
+}
+#sitio:hover{
+    text-shadow: #F0F0F0;
+    font-size: 1.1em;
 }
