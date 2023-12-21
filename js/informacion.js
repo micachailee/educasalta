@@ -69,7 +69,7 @@ function cargarInstituciones(callback) {
             modalidad.innerHTML= "Es de ambito "+institucionEncontrada.sector;
             break;
           default:
-            modalidad.innerHTML= institucionEncontrada.modalidad;
+            modalidad.innerHTML= "Institución con modalidad "+institucionEncontrada.modalidad;
             otros.innerHTML= institucionEncontrada.otros;
         }
     } else {

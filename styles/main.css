@@ -32,7 +32,7 @@ main{
     flex-wrap: wrap;
 }
 .img{
-    width: 95vw;
+    /* width: 95vw; */
     height: 40vh;
     overflow: hidden;
     display: block;
@@ -43,8 +43,8 @@ main{
     object-fit: contain;
 }
 h1{
-    margin: 0%;
-    font-size: 1em;
+    margin: 1em 0;
+    font-size: 1.5em;
 }
 article p{
     text-align: left;
@@ -167,16 +167,17 @@ article p{
     font-weight: bold;
 }
 
-#correo,
-#comentarios{
-    width: 350px;
-}
 
 /* Estilos para los campos del formulario */
+#tit{
+    display: flex;
+}
 .campo {
     margin-bottom: 20px;
+    overflow: hidden;
+    width: 100%;
+    padding: 0 1em;
 }
-
 label {
     display: block;
     font-weight: bold;
