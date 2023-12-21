@@ -299,7 +299,10 @@ nav{
 .custom_nav-container .navbar-toggler {
   outline: none;
 }
-
+.redes:hover{
+  width: 1.5em;
+  height: 1.5em;
+}
 .custom_nav-container .navbar-toggler {
   padding: 0;
   width: 37px;
