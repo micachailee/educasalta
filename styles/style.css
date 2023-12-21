@@ -247,10 +247,10 @@ nav{
 }
 
 .custom_nav-container {
-  padding: 0;
   min-height: 3em;
   transition: background-color 0.5s ease;
   position: fixed;
+  justify-content: space-between;
 }
 
 .custom_nav-container .navbar-nav {
