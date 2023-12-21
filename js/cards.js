@@ -65,7 +65,7 @@ function createNewCard(institucion) {
     imgInst.classList.add('inst-img');
 
     var titleInst = document.createElement('h3');
-    titleInst.innerText = institucion.nombre;
+    titleInst.innerText = institucion.nombre.toUpperCase();
     
     var contentInfo = document.createElement('div');
     contentInfo.classList.add('content-info');
