@@ -2,6 +2,9 @@ header {
     background-color: #0c0c0c;
     min-height: 60px;
 }
+.contact{
+  padding: 0;
+}
 .second-header {
     position: relative;
     height: 70vh;
@@ -37,7 +40,8 @@ header {
   
   .contact-info {
     display: flex;
-    padding: 50px;
+    padding: 60px;
+    flex-wrap: wrap;
   }
   
   .left-section {
@@ -51,7 +55,6 @@ header {
     color: #2c7873;
   }
     
-  
   .right-section {
     flex: 1;
     padding-left: 50px;
@@ -88,5 +91,23 @@ header {
     background-color:  #F0F0F0;
     border-color: #2c7873;
     color: #2c7873;
+}
+@media(max-width:768px){
+  .second-header {
+    position: relative;
+    height: 40vh;
+    overflow: hidden;
+  }
+  .contact-info {
+    display: flex;
+    flex-direction: column;
+  }
+  .right-section{
+    padding-left: 0;
+    margin-top: 20px;
+  }
+  .left-section i{
+    margin-bottom: 2rem;
+  }
 }
   
