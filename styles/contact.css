@@ -36,6 +36,8 @@ header {
   .overlay h1{
     font-size: 2.5rem;
     font-weight: 600;
+    border: 0;
+    padding: 0;
   }
   
   .contact-info {
